@@ -115,30 +115,14 @@ Here is a JSON representation of the Conditional Access Policy.
             "excludeRange": null,
             "allTimes": false,
             "includeDays": {
-                "daysOfWeek": [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                "daysOfWeek": [],
                 "timeZone": "Pacific Standard Time",
                 "startTime": "11:00:00",
                 "endTime": "11:20:00",
                 "allDay": false
             },
             "excludeDays": {
-                "daysOfWeek": [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                "daysOfWeek": [],
                 "timeZone": "Pacific Standard Time",
                 "startTime": "11:00:00",
                 "endTime": "11:01:00",
