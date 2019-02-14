@@ -142,14 +142,16 @@ Here is a JSON representation of the Conditional Access Policy.
 |includeAuthenticationContext|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
 
 ### microsoft.graph.conditionalAccessClientApps 
+This Property is the Enum which can have any of the below defined values.
+
 | Property	   | Description|
 |:---------------|:----------|
-|browser|Browser applications.|
-|modern|Modern authentication applications.|
-|easSupported|EAS applications on supported platforms.|
-|easUnsupported|EAS applications on unsupported platforms.|
-|other|Other legacy protocol applications.|
-|easSupported|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
+|Browser|Browserrowser|Browser applications.|
+|Modern|Modern authentication applications.|
+|EasSupported|EAS applications on supported platforms.|
+|EasUnsupported|EAS applications on unsupported platforms.|
+|Other|Other legacy protocol applications.|
+
 
 
 
