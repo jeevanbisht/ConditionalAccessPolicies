@@ -214,10 +214,10 @@ Note : The values are case sensitive
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
 |`allTimes`|`Boolean`| Apply to all times. If true, overrides all other time/day settings |
-|`includeDays`|[microsoft.graph.conditionalAccessDays](#microsoftgraphconditionalaccessdays)| Set of days of the week and times to include in scope of policy|
-|`excludeDays`|[microsoft.graph.conditionalAccessDays](#microsoftgraphconditionalaccessdays)| Set of days of the week and times to exclude from scope of policy|
-|`includeRange`|[microsoft.graph.conditionalAccessTimeRange](#microsoftgraphconditionalaccesstimerange)| A time range to include in scope of policy|
-|`excludeRange`|[microsoft.graph.conditionalAccessTimeRange](#microsoftgraphconditionalaccesstimerange)| A time range to exclude from scope of policy|
+|`includeDays`|[`microsoft.graph.conditionalAccessDays`](#microsoftgraphconditionalaccessdays)| Set of days of the week and times to include in scope of policy|
+|`excludeDays`|[`microsoft.graph.conditionalAccessDays`](#microsoftgraphconditionalaccessdays)| Set of days of the week and times to exclude from scope of policy|
+|`includeRange`|[`microsoft.graph.conditionalAccessTimeRange`](#microsoftgraphconditionalaccesstimerange)| A time range to include in scope of policy|
+|`excludeRange`|[`microsoft.graph.conditionalAccessTimeRange`](#microsoftgraphconditionalaccesstimerange)| A time range to exclude from scope of policy|
 
 
 ##### microsoft.graph.conditionalAccessDays
@@ -225,7 +225,7 @@ Note : The values are case sensitive
 
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
-|`daysOfWeek`|Collection of [microsoft.graph.dayOfWeek](#microsoftgraphdayofweek)| Which days of the week are included|
+|`daysOfWeek`|Collection of [`microsoft.graph.dayOfWeek`](#microsoftgraphdayofweek)| Which days of the week are included|
 |`timeZone`|`String`| Time zone in +HH or -HH formatv (ISO 8601)|
 |`startTime`|`String`| Start time each day in HH:MM:SS format (ISO 8601)|
 |`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
