@@ -258,9 +258,24 @@ Session control used to enforce signin frequency.
 
 
 
+## JSON representation
+Here is a sample JSON representation of the microsoft.graph.conditionalAccessSessionControls Complex type .
 
+```json
 
-
+ "sessionControls": {
+        "applicationEnforcedRestrictions": null,
+        "persistentBrowser": null,
+        "cloudAppSecurity": {
+            "isEnabled": true
+        },
+        "signInFrequency": {
+            "value": 14,
+            "type": "days",
+            "isEnabled": true
+        }
+    }
+```
 
 
 
