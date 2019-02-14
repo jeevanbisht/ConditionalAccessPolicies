@@ -88,7 +88,7 @@ Here is a JSON representation of the Conditional Access Policy.
             "excludeApplications": [
                     ],
             "includeAuthenticationContext": [
-					]
+			]
         },
         "users": {
             "includeUsers": [],
@@ -101,19 +101,19 @@ Here is a JSON representation of the Conditional Access Policy.
             "includeRoles": [
                             ],
             "excludeRoles": [
-							]
+			]
         },
         "platforms": {
             "includePlatforms": [
-						        ],
+			],
             "excludePlatforms": [
-								]
+			]
         },
         "locations": {
             "includeLocations": [
-								],
+			],
             "excludeLocations": [
-								]
+			]
         },
         "times": {
             "includeRange": null,
