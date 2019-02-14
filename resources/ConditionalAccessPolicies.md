@@ -209,6 +209,11 @@ Note : The values are case sensitive
 
 
 
+
+
+
+
+
 ### microsoft.graph.conditionalAccessTimes	 
 
 | Property   | Type|Description|
@@ -218,6 +223,29 @@ Note : The values are case sensitive
 |`excludeDays`|`microsoft.graph.conditionalAccessDays`| Set of days of the week and times to exclude from scope of policy|
 |`includeRange`|`microsoft.graph.conditionalAccessTimeRange`| A time range to include in scope of policy|
 |`excludeRange`|`microsoft.graph.conditionalAccessTimeRange`| A time range to exclude from scope of policy|
+
+
+### Complex Type: microsoft.graph.conditionalAccessDays
+
+
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`daysOfWeek`|Collection of `microsoft.graph.dayOfWeek`| Which days of the week are included|
+|`timeZone`|`String`| Time zone in +HH or -HH formatv (ISO 8601)|
+|`startTime`|`String`| Start time each day in HH:MM:SS format (ISO 8601)|
+|`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
+
+### Complex Type: microsoft.graph.conditionalAccessTimeRange
+
+
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`timeZone`|`String`| Time zone in +HH:MM or -HH:MM format (ISO 8601)|
+|`startDateTime`|`String`| Start time each day in YYYY-MM-DDTHH:MM:SS format (ISO 8601)|
+|`endDateTime`|`String`| End time each day in YYYY-MM-DDTHH:MM:SS format (ISO 8601)|
+
+
+
 
 
 
