@@ -54,14 +54,26 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-	"@odata.context":"https://graph.microsoft.com/beta/$metadata#policies/$entity",
-	"id":"id-value",
-	"alternativeIdentifier":null,
-	"definition":["policy-definition"],
-	"displayName":"name-value",
-	"isOrganizationDefault":boolean-value,
-	"keyCredentials":[key-credentials],
-	"type":"type-value"
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccessPolicies/$entity",
+    "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
+    "displayName": "Test Sample Policy",
+    "createdDateTime": null,
+    "modifiedDateTime": null,
+    "state": "enabled",
+    "conditions": {
+        "signInRiskLevels": [
+            "high",
+            "medium",
+            "low",
+            "none"
+        ],
+        "clientAppTypes": [
+            "browser",
+            "modern",
+            "easSupported",
+            "other"
+        ],
 }
 ```
 
