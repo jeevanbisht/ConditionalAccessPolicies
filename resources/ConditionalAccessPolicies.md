@@ -118,6 +118,20 @@ Here is a JSON representation of the Conditional Access Policy.
 
 ```
 
+### microsoft.graph.conditionalAccessConditions 
+| Property	   | Type	|Description|
+|:---------------|:--------|:----------|
+|id|String|Specifies id of a policy. Read-only|
+|displayName|String|Specifies A human-readable name of the policy.|
+|createdDateTime|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
+|modifiedDateTime|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
+|state|microsoft.graph.conditionalAccessPolicyState|Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
+|sessionControls|microsoft.graph.conditionalAccessSessionControls|Specifies complex type of session controls that will be enforced after sign-in.|
+|conditions|microsoft.graph.conditionalAccessConditions|Specifies complex type of conditions that govern when the policy applies.|
+|grantControls|microsoft.graph.conditionalAccessGrantControls|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
+
+
+
 #### Common Relationships
 |Relationship|Type|Description|
 |:-------------|:-----------|:-----------|
