@@ -156,13 +156,21 @@ Note : The values are case sensitive
 
 
 
-
 ### microsoft.graph.conditionalAccessDeviceStates 
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |includeStates|Collection of String|States in scope of policy (ALL only allowed value).|
 |excludeStates|Collection of String|States excluded from scope of policy. Only supports values are  "Compliant" or/and "DomainJoined" |
+
+
+
+### microsoft.graph.conditionalAccessLocations 
+
+| Property	   | Type	|Description|
+|:---------------|:--------|:----------|
+|includeLocations|Collection of String|Location IDs in scope of policy unless explicitly excluded, or ALL, or AllTrusted.|
+|excludeLocations|Collection of String|Location IDs excluded from scope of policy |
 
 
 
