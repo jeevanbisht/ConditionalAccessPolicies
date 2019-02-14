@@ -126,7 +126,7 @@ Here is a JSON representation of the Conditional Access Policy.
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |applications|[microsoft.graph.conditionalAccessApplications](#microsoftgraphconditionalaccessapplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
-|clientAppTypes|Collection(microsoft.graph.conditionalAccessClientApps)|client application types included in the policy scope. Optionally populated.|
+|clientAppTypes|Collection([microsoft.graph.conditionalAccessClientApps]((#microsoftgraphconditionalaccessapplications))|client application types included in the policy scope. Optionally populated.|
 |deviceStates|microsoft.graph.conditionalAccessDeviceStates|device states in the policy scope.|
 |locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
 |platforms|microsoft.graph.conditionalAccessPlatforms|platforms included in and excluded from the policy scope. Optionally populated..|
@@ -140,6 +140,17 @@ Here is a JSON representation of the Conditional Access Policy.
 |includeApplications|Collection of String|Application IDs in scope of policy unless explicitly excluded.|
 |excludeApplications|Collection of String|Application IDs excluded from scope of policy.|
 |includeAuthenticationContext|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
+
+### microsoft.graph.conditionalAccessClientApps 
+| Property	   | Description|
+|:---------------|:----------|
+|browser|Browser applications.|
+|modern|Modern authentication applications.|
+|easSupported|EAS applications on supported platforms.|
+|easUnsupported|EAS applications on unsupported platforms.|
+|other|Other legacy protocol applications.|
+|easSupported|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
+
 
 
 
