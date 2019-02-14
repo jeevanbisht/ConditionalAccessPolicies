@@ -54,7 +54,7 @@ Here is an example of the request.
 PATCH https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
 Content-Type: application/json
 {
-	  "displayName": "Sample - UpdateTest1",
+      "displayName": "Sample - UpdateTest1",
       "conditions": {
             "applications": {
             "includeApplications": [
