@@ -217,7 +217,7 @@ Session control used to enforce cloud app security checks.
 
 | Property   | Type|Description|Read-Only|
 |:---------------|:--------|:----------|:-------:|
-|`type`|`microsoft.graph.cloudAppSecuritySessionControlType`| Type of check to be performed by the cloud app security service.||
+|`type`|[`microsoft.graph.cloudAppSecuritySessionControlType`](#microsoftgraphcloudappsecuritysessioncontroltype)| Type of check to be performed by the cloud app security service.||
 
 
 #### microsoft.graph.cloudAppSecuritySessionControlType
