@@ -259,7 +259,7 @@ This Property is the Enum which can have any of the below defined values.
 
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
-|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. `always`, `never`).|
+|`mode`|[`microsoft.graph.persistentBrowserSessionMode`](#microsoftgraphpersistentbrowsersessionmode)| Type of persistent browser session mode (e.g. `always`, `never`).|
 
 
 #### microsoft.graph.persistentBrowserSessionMode
