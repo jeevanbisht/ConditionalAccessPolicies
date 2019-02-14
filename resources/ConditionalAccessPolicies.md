@@ -42,7 +42,7 @@ This policy is described in further detail below.
 |`grantControls`|[`microsoft.graph.conditionalAccessGrantControls`](#microsoftgraphconditionalaccessgrantcontrols)|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 
 ## JSON representation
-Here is a JSON representation of the Conditional Access Policy.
+Here is a JSON representation of the `Conditional Access Policy`.
 
 ```json
 
@@ -162,7 +162,7 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 ## JSON representation
-Here is a sample JSON representation of the microsoft.graph.conditionalAccessGrantControls Complex type .
+Here is a sample JSON representation of the `microsoft.graph.conditionalAccessGrantControls` Complex type .
 
 ```json
 
@@ -275,7 +275,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 ## JSON representation
-Here is a sample JSON representation of the microsoft.graph.conditionalAccessSessionControls Complex type .
+Here is a sample JSON representation of the `microsoft.graph.conditionalAccessSessionControls` Complex type .
 
 ```json
 
@@ -449,7 +449,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 ## JSON representation
-Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications Complex type .
+Here is a sample JSON representation of the `microsoft.graph.conditionalAccessApplications` Complex type .
 
 ```json
 
