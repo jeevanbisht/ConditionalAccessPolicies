@@ -162,8 +162,8 @@ Note : The values are case sensitive
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|includeStates|Collection of String|States in scope of policy (ALL only allowed value).|
-|excludeStates|Collection of String|States excluded from scope of policy. Only supports values are  "Compliant" or/and "DomainJoined" |
+|`includeStates`|Collection of `String`|States in scope of policy (ALL only allowed value).|
+|`excludeStates`|Collection of `String`|States excluded from scope of policy. Only supports values are  "Compliant" or/and "DomainJoined" |
 
 
 
@@ -171,8 +171,8 @@ Note : The values are case sensitive
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|includeLocations|Collection of String|Location IDs in scope of policy unless explicitly excluded, or ALL, or AllTrusted.|
-|excludeLocations|Collection of String|Location IDs excluded from scope of policy |
+|`includeLocations`|Collection of `String`|Location IDs in scope of policy unless explicitly excluded, or ALL, or AllTrusted.|
+|`excludeLocations`|Collection of `String`|Location IDs excluded from scope of policy |
 
 
 
@@ -182,12 +182,12 @@ This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
-|All|All platforms.|
-|Android|Android.|
-|Ios|iOS.|
-|Windows|Windows platforms.|
-|WindowsPhone|Windows Phone.|
-|MacOs|MacOS.|
+|`All`|All platforms.|
+|`Android`|Android.|
+|`Ios`|iOS.|
+|`Windows`|Windows platforms.|
+|`WindowsPhone`|Windows Phone.|
+|`MacOs`|MacOS.|
 
 Note : The values are case sensitive
 
@@ -198,10 +198,10 @@ This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
-|High| High Risk .|
-|Medium| Medium Risk .|
-|Low| Low Risk.|
-|None| No Risk.|
+|`High`| High Risk .|
+|`Medium`| Medium Risk .|
+|`Low`| Low Risk.|
+|`None`| No Risk.|
 
 
 Note : The values are case sensitive
@@ -210,14 +210,14 @@ Note : The values are case sensitive
 
 
 ### microsoft.graph.conditionalAccessUsers 
-| Property   | Type|Description|Read-Only|
-|:---------------|:--------|:----------|:-------:|
-|`includeUsers`|Collection of `String`| User IDs in scope of policy unless explicitly excluded, or ALL or GUEST||
-|`excludeUsers`|Collection of `String`| User IDs excluded from scope of policy and/or GUEST||
-|`includeGroups`|Collection of `String`| Group IDs in scope of policy unless explicitly excluded, or ALL||
-|`excludeGroups`|Collection of `String`| Group IDs excluded from scope of policy||
-|`includeRoles`|Collection of `String`| Role IDs in scope of policy unless explicitly excluded, or ALL||
-|`excludeRoles`|Collection of `String`| Role IDs excluded from scope of policy||
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`includeUsers`|Collection of `String`| User IDs in scope of policy unless explicitly excluded, or ALL or GUEST|
+|`excludeUsers`|Collection of `String`| User IDs excluded from scope of policy and/or GUEST|
+|`includeGroups`|Collection of `String`| Group IDs in scope of policy unless explicitly excluded, or ALL|
+|`excludeGroups`|Collection of `String`| Group IDs excluded from scope of policy|
+|`includeRoles`|Collection of `String`| Role IDs in scope of policy unless explicitly excluded, or ALL|
+|`excludeRoles`|Collection of `String`| Role IDs excluded from scope of policy|
 
 
 #### Common Relationships
