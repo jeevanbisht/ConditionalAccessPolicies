@@ -129,7 +129,7 @@ Here is a JSON representation of the Conditional Access Policy.
 |clientAppTypes|Collection([microsoft.graph.conditionalAccessClientApps](#microsoftgraphconditionalaccessclientapps))|client application types included in the policy scope. Optionally populated.|
 |deviceStates|microsoft.graph.conditionalAccessDeviceStates|device states in the policy scope.|
 |locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
-|platforms|microsoft.graph.conditionalAccessPlatforms|platforms included in and excluded from the policy scope. Optionally populated..|
+|platforms|[microsoft.graph.conditionalAccessPlatforms](#microsoftgraphconditionalaccessplatforms)|platforms included in and excluded from the policy scope. Optionally populated..|
 |signInRiskLevels|Collection(microsoft.graph.riskLevel)|risk levels included in the policy scope. Optionally populated.|
 |times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
 |users|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
@@ -151,6 +151,11 @@ This Property is the Enum which can have any of the below defined values.
 |EasSupported|EAS applications on supported platforms.|
 |EasUnsupported|EAS applications on unsupported platforms.|
 |Other|Other legacy protocol applications.|
+
+
+
+
+
 
 ### microsoft.graph.conditionalAccessPlatforms	 
 This Property is the Enum which can have any of the below defined values.
