@@ -132,7 +132,16 @@ Here is a JSON representation of the `Conditional Access Policy`.
 |`EnabledForReportingButNotEnforced`| Policy is evaluated and logged but controls are not enforced|
 
 
+## JSON representation
+Here is a sample JSON representation of the `microsoft.graph.conditionalAccessPolicyState` enum type .
 
+```json
+{
+  "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
+  "displayName": "Test Policy"
+  "state": "Enabled"
+}
+```
 
 
 ### microsoft.graph.conditionalAccessGrantControls
