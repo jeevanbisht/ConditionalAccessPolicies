@@ -161,6 +161,25 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 
+## JSON representation
+Here is a sample JSON representation of the microsoft.graph.conditionalAccessGrantControls Complex type .
+
+```json
+
+"grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "mfa",
+            "compliantDevice",
+            "domainJoinedDevice",
+            "approvedApplication"
+        ],
+        "customControls": [
+            "IRISCsan"
+        ]
+    }
+```
+
 
 ### microsoft.graph.conditionalAccessSessionControls
 
