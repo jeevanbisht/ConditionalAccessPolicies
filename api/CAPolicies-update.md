@@ -34,7 +34,7 @@ PATCH /conditionalaccesspolicies/{id}
 In the request body, provide a JSON object with the parameters that need to be updated. The following table shows the possible parameters.
 
 ## JSON representation
-Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications Complex type .
+Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications Complex type, below are the minimum parameters required for the update operation.
 
 ```json
 
