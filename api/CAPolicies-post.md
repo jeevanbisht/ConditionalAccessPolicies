@@ -24,7 +24,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-POST /policies
+POST /ConditionalAccessPolicies
 ```
 ## Request headers
 | Name       | Type | Description|
@@ -55,7 +55,7 @@ has escaped double quotes.
 Here is an example of the request.
 
 ```http
-POST https://graph.microsoft.com/beta/policies
+POST https://graph.microsoft.com/beta/ConditionalAccessPolicies
 Content-Type: application/json
 
 {
