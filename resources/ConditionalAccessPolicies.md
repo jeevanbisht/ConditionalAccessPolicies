@@ -209,6 +209,17 @@ Note : The values are case sensitive
 
 
 
+### microsoft.graph.conditionalAccessUsers 
+| Property   | Type|Description|Read-Only|
+|:---------------|:--------|:----------|:-------:|
+|`includeUsers`|Collection of `String`| User IDs in scope of policy unless explicitly excluded, or ALL or GUEST||
+|`excludeUsers`|Collection of `String`| User IDs excluded from scope of policy and/or GUEST||
+|`includeGroups`|Collection of `String`| Group IDs in scope of policy unless explicitly excluded, or ALL||
+|`excludeGroups`|Collection of `String`| Group IDs excluded from scope of policy||
+|`includeRoles`|Collection of `String`| Role IDs in scope of policy unless explicitly excluded, or ALL||
+|`excludeRoles`|Collection of `String`| Role IDs excluded from scope of policy||
+
+
 #### Common Relationships
 |Relationship|Type|Description|
 |:-------------|:-----------|:-----------|
