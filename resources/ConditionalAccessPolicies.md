@@ -158,6 +158,35 @@ Here is a JSON representation of the Conditional Access Policy.
 |`FederatedMfa`| Require MFA via federation|
 |`FederatedCertAuth`| Required certificate authentication via federation|
 
+
+
+
+
+### microsoft.graph.conditionalAccessSessionControls
+
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`applicationEnforcedRestrictions`|`microsoft.graph.applicationEnforcedRestrictionsSessionControl`| Session control to enforce application restrictions.|
+|`cloudAppSecurity`|`microsoft.graph.cloudAppSecuritySessionControl`| Session control to apply cloud app security.|
+|`signInFrequency`|`microsoft.graph.signInFrequencySessionControl`| Session control to enforce signin frequency.|
+|`persistentBrowser`|`microsoft.graph.persistentBrowserSessionControl`| Session control to define whether to persist cookies or not.|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
