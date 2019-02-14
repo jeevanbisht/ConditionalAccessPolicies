@@ -54,23 +54,14 @@ Here is an example of the request.
 PATCH https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
 Content-Type: application/json
 {
-	"displayName": "Sample - UpdateTest",
-    "conditions": {
-        "signInRiskLevels": [
-            "High",
-            
-        ],
-        "clientAppTypes": [
-            "Browser"
-
-        ],
-        "applications": {
+	{
+    "displayName": "Sample - UpdateTest1",
+      "conditions": {
+            "applications": {
             "includeApplications": [
                 "00000002-0000-0ff1-ce00-000000000000"
             ],
-            "excludeApplications": [
-                
-            ],
+            "excludeApplications": [],
             "includeAuthenticationContext": []
         },
         "users": {
@@ -89,59 +80,10 @@ Content-Type: application/json
                 "cf1c38e5-3621-4004-a7cb-879624dced7c"
             ],
             "excludeRoles": []
-        },
-        "platforms": {
-            "includePlatforms": [
-                "Android"
-                
-            ],
-            "excludePlatforms": [
-                "WindowsPhone"
-            ]
-        },
-        "locations": {
-            "includeLocations": [
-                "d474030c-f7a0-4adc-9993-2b0de2414818"
-            ],
-            "excludeLocations": [
-                "c7f88cf7-7417-4462-b120-edb3ba512397"
-            ]
-        },
-        "times": {
-            "excludeDays": null,
-            "includeRange": null,
-            "allTimes": false,
-            "includeDays": {
-                "daysOfWeek": [
-                    "Sunday",
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
-                "timeZone": "Pacific Standard Time",
-                "startTime": "11:00:00",
-                "endTime": "11:20:00",
-                "allDay": false
-            },
-            "excludeRange": {
-                "timeZone": "Pacific Standard Time",
-                "startDateTime": "2/14/2019 12:00:00 AM",
-                "endDateTime": "2/15/2019 12:00:00 AM"
-            }
-        },
-        "deviceStates": {
-            "includeStates": [
-                "All"
-            ],
-            "excludeStates": [
-                "Compliant",
-                "DomainJoined"
-            ]
         }
     }
+}
+
 }
 
 
