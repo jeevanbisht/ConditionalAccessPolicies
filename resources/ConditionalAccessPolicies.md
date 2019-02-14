@@ -216,7 +216,7 @@ Note : The values are case sensitive
 |`allTimes`|`Boolean`| Apply to all times. If true, overrides all other time/day settings |
 |`includeDays`|`[microsoft.graph.conditionalAccessDays](#microsoftgraphconditionalaccessdays)`| Set of days of the week and times to include in scope of policy|
 |`excludeDays`|`[microsoft.graph.conditionalAccessDays](#microsoftgraphconditionalaccessdays)`| Set of days of the week and times to exclude from scope of policy|
-|`includeRange`|`[microsoft.graph.conditionalAccessTimeRange](#microsoftgraphconditionalaccesstimerange)`| A time range to include in scope of policy|
+|`includeRange`|`[microsoft.graph.conditionalAccessTimeRange]`(#microsoftgraphconditionalaccesstimerange)| A time range to include in scope of policy|
 |`excludeRange`|`[microsoft.graph.conditionalAccessTimeRange](#microsoftgraphconditionalaccesstimerange)`| A time range to exclude from scope of policy|
 
 
