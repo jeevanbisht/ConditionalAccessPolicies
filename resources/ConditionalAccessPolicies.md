@@ -267,7 +267,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 | Property   | Description|
-|:---------------|:----------:|
+|:---------------|:----------|
 |`always`| Users remain signed in after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
 |`never`| Users are signed out after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
 |`unknownFutureValue`| Evolvable enum sentinal value|
