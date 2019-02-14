@@ -204,32 +204,25 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessGra
 
 
 
-### Abstract Class: conditionalAccessSessionControl
 
-
-
-### Complex Type: applicationEnforcedRestrictionsSessionControl
+### microsoft.graph.applicationEnforcedRestrictionsSessionControl
 Session control used to enforce application specific restrictions (e.g. Sharepoint limited access).
 
 
 
-### Enum: cloudAppSecuritySessionControlType
 
-
-
-### Complex Type: cloudAppSecuritySessionControl
+### microsoft.graph.cloudAppSecuritySessionControl
 Session control used to enforce cloud app security checks.
-
 
 
 | Property   | Type|Description|Read-Only|
 |:---------------|:--------|:----------|:-------:|
 |`type`|`microsoft.graph.cloudAppSecuritySessionControlType`| Type of check to be performed by the cloud app security service.||
 
-### Enum: signinFrequencyType
 
 
-### Complex Type: signInFrequencySessionControl
+
+### microsoft.graph.signInFrequencySessionControl
 Session control used to enforce signin frequency.
 
 
@@ -248,12 +241,13 @@ Session control used to enforce signin frequency.
 |`never`| Users are signed out after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
 |`unknownFutureValue`| Evolvable enum sentinal value|
 
-### Complex Type: persistentBrowserSessionControl
+
+### microsoft.graph.persistentBrowserSessionControl
 
 
 | Property   | Type|Description|Read-Only|
 |:---------------|:--------|:----------|:-------:|
-|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. always, never).||
+|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. `always`, `never`).||
 
 
 
