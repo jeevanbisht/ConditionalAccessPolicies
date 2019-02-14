@@ -225,7 +225,19 @@ Note : The values are case sensitive
 |`excludeRange`|`microsoft.graph.conditionalAccessTimeRange`| A time range to exclude from scope of policy|
 
 
-### Complex Type: microsoft.graph.conditionalAccessDays
+### microsoft.graph.conditionalAccessDays
+This Property is the Enum which can have any of the below defined values. 
+
+| Property	   | 
+|:---------------|
+|`Sunday`| 
+|`Monday`| 
+|`Tuesday`|
+|`Wednesday`| 
+|`Thursday`| 
+|`Friday`|
+|`Saturday`|
+
 
 
 | Property   | Type|Description|
@@ -235,7 +247,12 @@ Note : The values are case sensitive
 |`startTime`|`String`| Start time each day in HH:MM:SS format (ISO 8601)|
 |`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
 
-### Complex Type: microsoft.graph.conditionalAccessTimeRange
+
+### microsoft.graph.dayOfWeek
+
+
+
+### microsoft.graph.conditionalAccessTimeRange
 
 
 | Property   | Type|Description|
