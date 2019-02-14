@@ -239,7 +239,7 @@ Session control used to enforce signin frequency.
 | Property   | Type|Description|Read-Only|
 |:---------------|:--------|:----------|:-------:|
 |`value`|`Edm.Int32`| Numeric value corresponding to the given type (e.g. 8 hours, 1 day).||
-|`type`|[`microsoft.graph.signinFrequencyType`](#microsoftgraphsigninfrequencytype)| Type of the numeric value for this control.||
+|`type`|[`microsoft.graph.signinFrequencyType`](#microsoftgraphsigninfrequencytype)| Defines the signin frequency type. ||
 
 #### microsoft.graph.signinFrequencyType
 
