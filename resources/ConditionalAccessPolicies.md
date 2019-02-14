@@ -28,6 +28,7 @@ This policy is described in further detail below.
 
 
 
+
 ### Common Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
@@ -35,7 +36,7 @@ This policy is described in further detail below.
 |`displayName`|String|Specifies A human-readable name of the policy.|
 |`createdDateTime`|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
 |`modifiedDateTime`|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
-|`state`|`microsoft.graph.conditionalAccessPolicyState` |Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
+|`state`|[`microsoft.graph.conditionalAccessPolicyState`](#microsoftgraphconditionalaccesspolicystate) |Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
 |`sessionControls`|`microsoft.graph.conditionalAccessSessionControls`|Specifies complex type of session controls that will be enforced after sign-in.|
 |`conditions`|[`microsoft.graph.conditionalAccessConditions`](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
 |`grantControls`|`microsoft.graph.conditionalAccessGrantControls`|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
@@ -128,8 +129,8 @@ Here is a JSON representation of the Conditional Access Policy.
 |:----------------|:------------|
 |`Enabled`| Policy is enabled and enforced|
 |`Disabled`| Policy is not enabled or enforced|
-|`enabledForReportingButNotEnforced`| Policy is evaluated and logged but controls are not enforced|
-|`unknownFutureValue`| Evolvable enum sentinal value|
+|`EnabledForReportingButNotEnforced`| Policy is evaluated and logged but controls are not enforced|
+
 
 
 
