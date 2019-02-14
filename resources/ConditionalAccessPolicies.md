@@ -12,6 +12,9 @@ Represents an Azure AD Conditional Access policy. Conditional access Policies ar
 
 
 
+
+[test](ConditionalAccessPolicies.md#microsoftgraphconditionalaccessconditions) | test 
+
 This policy is described in further detail below.
 
 ## Methods
@@ -22,6 +25,7 @@ This policy is described in further detail below.
 |[Update policy](../api/CAPolicies-update.md)|None|Update Conditional Access policy object.|
 |[Delete policy](../api/CAPolicies-delete.md)|None|Delete Conditional Access policy object.|
 |[List policies](../api/CAPolicies-list.md)|Policy collection|Get all Conditional Access policy objects in the organization.|
+
 
 
 ### Common Properties
