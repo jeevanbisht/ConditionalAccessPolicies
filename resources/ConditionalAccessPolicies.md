@@ -125,7 +125,7 @@ Here is a JSON representation of the Conditional Access Policy.
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|applications|microsoft.graph.conditionalAccessApplications|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
+|applications|[microsoft.graph.conditionalAccessApplications](#microsoft.graph.conditionalAccessApplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
 |clientAppTypes|Collection(microsoft.graph.conditionalAccessClientApps)|client application types included in the policy scope. Optionally populated.|
 |deviceStates|microsoft.graph.conditionalAccessDeviceStates|device states in the policy scope.|
 |locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
@@ -133,6 +133,15 @@ Here is a JSON representation of the Conditional Access Policy.
 |signInRiskLevels|Collection(microsoft.graph.riskLevel)|risk levels included in the policy scope. Optionally populated.|
 |times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
 |users|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
+
+### microsoft.graph.conditionalAccessApplications 
+| Property	   | Type	|Description|
+|:---------------|:--------|:----------|
+|includeApplications|Collection of String|Application IDs in scope of policy unless explicitly excluded.|
+|excludeApplications|Collection of String|Application IDs excluded from scope of policy.|
+|includeAuthenticationContext|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
+
+
 
 
 #### Common Relationships
