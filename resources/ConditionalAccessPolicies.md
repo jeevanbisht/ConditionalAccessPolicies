@@ -226,6 +226,17 @@ Note : The values are case sensitive
 
 
 ### microsoft.graph.conditionalAccessDays
+
+
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`daysOfWeek`|Collection of `microsoft.graph.dayOfWeek`| Which days of the week are included|
+|`timeZone`|`String`| Time zone in +HH or -HH formatv (ISO 8601)|
+|`startTime`|`String`| Start time each day in HH:MM:SS format (ISO 8601)|
+|`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
+
+
+### microsoft.graph.dayOfWeek
 This Property is the Enum which can have any of the below defined values. 
 
 | Property	   | 
@@ -238,17 +249,6 @@ This Property is the Enum which can have any of the below defined values.
 |`Friday`|
 |`Saturday`|
 
-
-
-| Property   | Type|Description|
-|:---------------|:--------|:----------|
-|`daysOfWeek`|Collection of `microsoft.graph.dayOfWeek`| Which days of the week are included|
-|`timeZone`|`String`| Time zone in +HH or -HH formatv (ISO 8601)|
-|`startTime`|`String`| Start time each day in HH:MM:SS format (ISO 8601)|
-|`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
-
-
-### microsoft.graph.dayOfWeek
 
 
 
