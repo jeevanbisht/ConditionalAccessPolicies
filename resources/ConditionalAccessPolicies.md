@@ -220,6 +220,16 @@ Session control used to enforce cloud app security checks.
 |`type`|`microsoft.graph.cloudAppSecuritySessionControlType`| Type of check to be performed by the cloud app security service.||
 
 
+#### microsoft.graph.cloudAppSecuritySessionControlType
+
+This Property is the Enum which can have any of the below defined values. 
+
+| Property	   | 
+|:---------------|
+|`McasConfigured`| 
+|`MonitorOnly`| 
+|`BlockDownloads`|
+|`ProtectDownloads`| 
 
 
 ### microsoft.graph.signInFrequencySessionControl
