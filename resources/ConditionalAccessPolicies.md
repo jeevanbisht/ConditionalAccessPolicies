@@ -187,7 +187,7 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessGra
 |:---------------|:--------|:----------|
 |`applicationEnforcedRestrictions`|[`microsoft.graph.applicationEnforcedRestrictionsSessionControl`](#microsoftgraphapplicationenforcedrestrictionssessioncontrol)| Session control to enforce application restrictions.|
 |`cloudAppSecurity`|[`microsoft.graph.cloudAppSecuritySessionControl`](#microsoftgraphcloudappsecuritysessioncontrol)| Session control to apply cloud app security.|
-|`signInFrequency`|`microsoft.graph.signInFrequencySessionControl`| Session control to enforce signin frequency.|
+|`signInFrequency`|[`microsoft.graph.signInFrequencySessionControl`](#microsoftgraphsigninfrequencysessioncontrol)| Session control to enforce signin frequency.|
 |`persistentBrowser`|`microsoft.graph.persistentBrowserSessionControl`| Session control to define whether to persist cookies or not.|
 
 
