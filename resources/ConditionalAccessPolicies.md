@@ -340,14 +340,12 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessApp
             "allTimes": false,
             "includeDays": {
                 "daysOfWeek": [
-                    "Sunday",
                     "Monday",
                     "Tuesday",
                     "Wednesday",
                     "Thursday",
-                    "Friday",
-                    "Saturday"
-                ],
+                    "Friday"
+					],
                 "timeZone": "Pacific Standard Time",
                 "startTime": "11:00:00",
                 "endTime": "11:20:00",
