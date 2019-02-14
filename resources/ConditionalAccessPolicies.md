@@ -1,6 +1,6 @@
 ---
 title: "Conditional Access Policy resource type"
-description: "Represents an Azure AD Conditional Access Policy. Policies are custom rules that can be enforced on applications, service principals, groups, or the entire organization they are assigned to. Currently only one type of policy is available:"
+description: "Represents an Azure AD Conditional Access policy. Conditional access Policies are custom rules that define and access scenario:"
 localization_priority: Normal
 ---
 
