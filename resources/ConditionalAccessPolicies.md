@@ -128,7 +128,7 @@ Here is a JSON representation of the Conditional Access Policy.
 |applications|[microsoft.graph.conditionalAccessApplications](#microsoftgraphconditionalaccessapplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
 |clientAppTypes|Collection([microsoft.graph.conditionalAccessClientApps](#microsoftgraphconditionalaccessclientapps))|client application types included in the policy scope. Optionally populated.|
 |deviceStates|[microsoft.graph.conditionalAccessDeviceStates](#microsoftgraphconditionalaccessdevicestates)|device states in the policy scope.|
-|locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
+|locations|[microsoft.graph.conditionalAccessLocations](#microsoftgraphconditionalaccesslocations)|locations included in and excluded from the policy scope. Optionally populated.|
 |platforms|[microsoft.graph.conditionalAccessPlatforms](#microsoftgraphconditionalaccessplatforms)|platforms included in and excluded from the policy scope. Optionally populated..|
 |signInRiskLevels|Collection(microsoft.graph.riskLevel)|risk levels included in the policy scope. Optionally populated.|
 |times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
