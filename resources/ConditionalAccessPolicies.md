@@ -191,6 +191,19 @@ Note : The values are case sensitive
 
 
 
+### microsoft.graph.riskLevel	 
+This Property is the Enum which can have any of the below defined values. 
+
+| Property	   | Description|
+|:---------------|:----------|
+|high| High Risk .|
+|medium| Medium Risk .|
+|low| Low Risk.|
+|None| No Risk.|
+
+
+Note : The values are case sensitive
+
 
 
 
