@@ -31,14 +31,14 @@ This policy is described in further detail below.
 ### Common Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|String|Specifies id of a policy. Read-only|
-|displayName|String|Specifies A human-readable name of the policy.|
-|createdDateTime|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
-|modifiedDateTime|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
-|state|microsoft.graph.conditionalAccessPolicyState |Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
-|sessionControls|microsoft.graph.conditionalAccessSessionControls|Specifies complex type of session controls that will be enforced after sign-in.|
-|conditions|[microsoft.graph.conditionalAccessConditions](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
-|grantControls|microsoft.graph.conditionalAccessGrantControls|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
+|`id`|String|Specifies id of a policy. Read-only|
+|`displayName`|String|Specifies A human-readable name of the policy.|
+|`createdDateTime`|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
+|`modifiedDateTime`|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
+|`state`|microsoft.graph.conditionalAccessPolicyState |Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
+|`sessionControls`|microsoft.graph.conditionalAccessSessionControls|Specifies complex type of session controls that will be enforced after sign-in.|
+|`conditions`|[microsoft.graph.conditionalAccessConditions](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
+|`grantControls`|microsoft.graph.conditionalAccessGrantControls|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 
 ## JSON representation
 Here is a JSON representation of the Conditional Access Policy.
@@ -125,34 +125,34 @@ Here is a JSON representation of the Conditional Access Policy.
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|applications|[microsoft.graph.conditionalAccessApplications](#microsoftgraphconditionalaccessapplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
-|clientAppTypes|Collection([microsoft.graph.conditionalAccessClientApps](#microsoftgraphconditionalaccessclientapps))|client application types included in the policy scope. Optionally populated.|
-|deviceStates|[microsoft.graph.conditionalAccessDeviceStates](#microsoftgraphconditionalaccessdevicestates)|device states in the policy scope.|
-|locations|[microsoft.graph.conditionalAccessLocations](#microsoftgraphconditionalaccesslocations)|locations included in and excluded from the policy scope. Optionally populated.|
-|platforms|[microsoft.graph.conditionalAccessPlatforms](#microsoftgraphconditionalaccessplatforms)|platforms included in and excluded from the policy scope. Optionally populated..|
-|signInRiskLevels|Collection([microsoft.graph.riskLevel](#microsoftgraphrisklevel))|risk levels included in the policy scope. Optionally populated.|
-|times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
-|users|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
+|`applications`|[microsoft.graph.conditionalAccessApplications](#microsoftgraphconditionalaccessapplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
+|`clientAppTypes`|Collection([microsoft.graph.conditionalAccessClientApps](#microsoftgraphconditionalaccessclientapps))|client application types included in the policy scope. Optionally populated.|
+|`deviceStates`|[microsoft.graph.conditionalAccessDeviceStates](#microsoftgraphconditionalaccessdevicestates)|device states in the policy scope.|
+|`locations`|[microsoft.graph.conditionalAccessLocations](#microsoftgraphconditionalaccesslocations)|locations included in and excluded from the policy scope. Optionally populated.|
+|`platforms`|[microsoft.graph.conditionalAccessPlatforms](#microsoftgraphconditionalaccessplatforms)|platforms included in and excluded from the policy scope. Optionally populated..|
+|`signInRiskLevels`|Collection([microsoft.graph.riskLevel](#microsoftgraphrisklevel))|risk levels included in the policy scope. Optionally populated.|
+|`times`|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
+|`users`|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
 
 
 
 ### microsoft.graph.conditionalAccessApplications 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|includeApplications|Collection of String|Application IDs in scope of policy unless explicitly excluded.|
-|excludeApplications|Collection of String|Application IDs excluded from scope of policy.|
-|includeAuthenticationContext|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
+|`includeApplications`|Collection of `String`|Application IDs in scope of policy unless explicitly excluded.|
+|`excludeApplications`|Collection of `String`|Application IDs excluded from scope of policy.|
+|`includeAuthenticationContext`|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
 
 ### microsoft.graph.conditionalAccessClientApps 
 This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
-|Browser|Browser applications.|
-|Modern|Modern authentication applications.|
-|EasSupported|EAS applications on supported platforms.|
-|EasUnsupported|EAS applications on unsupported platforms.|
-|Other|Other legacy protocol applications.|
+|`Browser`|Browser applications.|
+|`Modern`|Modern authentication applications.|
+|`EasSupported`|EAS applications on supported platforms.|
+|`EasUnsupported`|EAS applications on unsupported platforms.|
+|`Other`|Other legacy protocol applications.|
 
 Note : The values are case sensitive
 
