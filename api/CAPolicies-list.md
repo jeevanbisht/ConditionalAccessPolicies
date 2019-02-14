@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 <!-- { "blockType": "ignored" } -->
 ```http
-GET /policies
+GET /conditionalaccesspolicies/
 ```
 ## Request headers
 | Name       | Type | Description|
@@ -43,7 +43,7 @@ The following example retrieves all policies.
 Here is an example of the request.
 
 ```http
-GET https://graph.microsoft.com/beta/policies
+GET https://graph.microsoft.com/beta/conditionalaccesspolicies/
 ```
 
 ##### Response
