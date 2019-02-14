@@ -40,12 +40,12 @@ The following table shows the properties that are required when you create a pol
 | Parameter	   | Type	|Description|
 |:---------------|:--------|:----------|
 |definition|String|The string version of the [policy](../resources/ConditionalAccessPolicies.md) object.|
-|displayName|String|A custom name for the policy.|
-|type|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy"|
+|displayName|String|A custom name for the Conditional Access Policy.|
+
 
 ## Response
 
-If successful, this method returns `201 Created` response code and [policy](../resources/policy.md) object in the response body. If unsuccessful, a `4xx` error will be returned with specific details.  
+If successful, this method returns `201 Created` response code and [Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object in the response body. If unsuccessful, a `4xx` error will be returned with specific details.  
 
 ## Example
 The following example creates a new token lifetime Policy. Notice the string definition parameter
@@ -59,9 +59,8 @@ POST https://graph.microsoft.com/beta/ConditionalAccessPolicies
 Content-Type: application/json
 
 {
-  "displayName":"CustomTokenLifetimePolicy",
-  "definition":["{\"TokenLifetimePolicy\":{\"Version\":1,\"AccessTokenLifetime\":\"8:00:00\"}}"],
-  "type":"TokenLifetimePolicy"
+
+
 }
 ```
 
