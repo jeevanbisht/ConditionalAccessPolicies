@@ -27,10 +27,10 @@ This policy is described in further detail below.
 ### Common Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|String|Specifies id of a policy|
+|id|String|Specifies id of a policy. Read-only|
 |displayName|String|Specifies A human-readable name of the policy.|
-|createdDateTime|DateTimeOffset|Specifies creation datetime of the policy.|
-|modifiedDateTime|DateTimeOffset|Specifies last modification datetime of the policy.|
+|createdDateTime|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
+|modifiedDateTime|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
 |state|microsoft.graph.conditionalAccessPolicyState|Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
 |sessionControls|microsoft.graph.conditionalAccessSessionControls|Specifies complex type of session controls that will be enforced after sign-in.|
 |conditions|microsoft.graph.conditionalAccessConditions|Specifies complex type of conditions that govern when the policy applies.|
