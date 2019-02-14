@@ -27,12 +27,14 @@ This policy is described in further detail below.
 ### Common Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|String|The string version of the specific policy. See below. Required.|
-|displayName|String|A custom name for the policy. Required.|
-|createdDateTime|Boolean|If set to true, activates this policy. There can be many policies for the same policy type, but only one can be activated as the organization default. Optional, default value is false.|
-|modifiedDateTime|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy". Required.|
-|state|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy". Required.|
-|sessionControls|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy". Required.|
+|id|String|Specifies id of a policy|
+|displayName|String|Specifies A human-readable name of the policy.|
+|createdDateTime|DateTimeOffset|Specifies creation datetime of the policy.|
+|modifiedDateTime|DateTimeOffset|Specifies last modification datetime of the policy.|
+|state|microsoft.graph.conditionalAccessPolicyState|Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
+|sessionControls|microsoft.graph.conditionalAccessSessionControls|Specifies the type of policy. Currently must be "TokenLifetimePolicy". Required.|
+|conditions|microsoft.graph.conditionalAccessConditions|Specifies complex type of conditions that govern when the policy applies.|
+|grantControls|microsoft.graph.conditionalAccessGrantControls|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 #### Common Relationships
 |Relationship|Type|Description|
 |:-------------|:-----------|:-----------|
