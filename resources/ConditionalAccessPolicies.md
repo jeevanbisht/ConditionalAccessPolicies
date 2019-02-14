@@ -138,7 +138,7 @@ Here is a sample JSON representation of the `microsoft.graph.conditionalAccessPo
 ```json
 {
   "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
-  "displayName": "Test Policy"
+  "displayName": "Test Policy",
   "state": "Enabled"
 }
 ```
