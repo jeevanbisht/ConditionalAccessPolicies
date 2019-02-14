@@ -148,7 +148,7 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 | Property   | Description|
-|:---------------|:----------:|
+|:---------------|:----------|
 |`Block`| Block sign-in|
 |`Mfa`| Require Azure MFA|
 |`CompliantDevice`| Require Intune-compliant device|
