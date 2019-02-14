@@ -137,14 +137,14 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 
-### microsoft.graph.conditionalAccessApplications 
+#### microsoft.graph.conditionalAccessApplications 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |`includeApplications`|Collection of `String`|Application IDs in scope of policy unless explicitly excluded.|
 |`excludeApplications`|Collection of `String`|Application IDs excluded from scope of policy.|
 |`includeAuthenticationContext`|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
 
-### microsoft.graph.conditionalAccessClientApps 
+#### microsoft.graph.conditionalAccessClientApps 
 This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
@@ -159,7 +159,7 @@ Note : The values are case sensitive
 
 
 
-### microsoft.graph.conditionalAccessDeviceStates 
+#### microsoft.graph.conditionalAccessDeviceStates 
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
