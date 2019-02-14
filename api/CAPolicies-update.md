@@ -68,7 +68,7 @@ If successful, this method returns `204 No Content` response code. If unsuccessf
 The following example updates the definition of the token lifetime policy and sets it as the organization default.
 
 ##### Request
-Here is an example of the request.
+Here is an example of the request. Where we update the Policy displayName
 
 ```http
 PATCH https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
