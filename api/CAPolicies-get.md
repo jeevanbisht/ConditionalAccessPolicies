@@ -1,6 +1,6 @@
 ---
 title: "Get Policy"
-description: "Retrieve the properties of a policy."
+description: "Retrieve the properties of a Conditional Access Policy."
 localization_priority: Normal
 ---
 
@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Retrieve the properties of a [policy](../resources/ConditionalAccessPolicies.md).
+Retrieve the properties of a [Conditional Access Policy](../resources/ConditionalAccessPolicies.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).

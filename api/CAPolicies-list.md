@@ -1,6 +1,6 @@
 ---
 title: "List Policies"
-description: "Retrieve all policy objects in the directory."
+description: "Retrieve all Conditional Access Policy objects in the directory."
 localization_priority: Normal
 ---
 
