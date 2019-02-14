@@ -41,7 +41,7 @@ This policy is described in further detail below.
 |`conditions`|[`microsoft.graph.conditionalAccessConditions`](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
 |`grantControls`|[`microsoft.graph.conditionalAccessGrantControls`](#microsoftgraphconditionalaccessgrantcontrols)|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 
-## JSON representation
+### JSON representation
 Here is a JSON representation of the `Conditional Access Policy`.
 
 ```json
@@ -132,7 +132,7 @@ Here is a JSON representation of the `Conditional Access Policy`.
 |`EnabledForReportingButNotEnforced`| Policy is evaluated and logged but controls are not enforced|
 
 
-## JSON representation
+### JSON representation
 Here is a sample JSON representation of the `microsoft.graph.conditionalAccessPolicyState` enum type .
 
 ```json
@@ -170,7 +170,7 @@ Here is a sample JSON representation of the `microsoft.graph.conditionalAccessPo
 
 
 
-## JSON representation
+### JSON representation
 Here is a sample JSON representation of the `microsoft.graph.conditionalAccessGrantControls` Complex type .
 
 ```json
@@ -198,17 +198,6 @@ Here is a sample JSON representation of the `microsoft.graph.conditionalAccessGr
 |`cloudAppSecurity`|[`microsoft.graph.cloudAppSecuritySessionControl`](#microsoftgraphcloudappsecuritysessioncontrol)| Session control to apply cloud app security.|
 |`signInFrequency`|[`microsoft.graph.signInFrequencySessionControl`](#microsoftgraphsigninfrequencysessioncontrol)| Session control to enforce signin frequency.|
 |`persistentBrowser`|[`microsoft.graph.persistentBrowserSessionControl`](#microsoftgraphpersistentbrowsersessioncontrol)| Session control to define whether to persist cookies or not.|
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -283,7 +272,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 
-## JSON representation
+### JSON representation
 Here is a sample JSON representation of the `microsoft.graph.conditionalAccessSessionControls` Complex type .
 
 ```json
@@ -457,7 +446,7 @@ This Property is the Enum which can have any of the below defined values.
 |`excludeRoles`|Collection of `String`| Role IDs excluded from scope of policy|
 
 
-## JSON representation
+### JSON representation
 Here is a sample JSON representation of the `microsoft.graph.conditionalAccessApplications` Complex type .
 
 ```json
