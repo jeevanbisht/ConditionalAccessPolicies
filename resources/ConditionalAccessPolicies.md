@@ -92,16 +92,11 @@ Here is a JSON representation of the Conditional Access Policy.
         },
         "users": {
             "includeUsers": [],
-            "excludeUsers": [
-                            ],
-            "includeGroups": [
-                            ],
-            "excludeGroups": [
-                            ],
-            "includeRoles": [
-                            ],
-            "excludeRoles": [
-			]
+            "excludeUsers": [],
+            "includeGroups": []
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": [],
         },
         "platforms": {
             "includePlatforms": [
@@ -160,9 +155,9 @@ Here is a JSON representation of the Conditional Access Policy.
     "grantControls": {
         "operator": "OR",
         "builtInControls": [
-							],
+		],
         "customControls": [
-							]
+		]
     }
 }
 
