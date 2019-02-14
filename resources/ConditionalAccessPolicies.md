@@ -135,6 +135,16 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 
+### microsoft.graph.conditionalAccessGrantControls
+
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`operator`|`String`| Acceptable values: `AND` and `OR`, defines relationship of controls|
+|`builtInControls`|Collection of `microsoft.graph.conditionalAccessGrantControl`| List of enum values of built-in controls specified by the policy|
+|`customControls`|Collection of `String`| List of string IDs of custom controls specified by the policy|
+
+
+
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
