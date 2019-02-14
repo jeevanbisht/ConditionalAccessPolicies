@@ -70,6 +70,104 @@ Here is a JSON representation of the resource.
 
 ```json
 {
+
+{
+    "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
+    "displayName": "Test Policy",
+    "createdDateTime": null,
+    "modifiedDateTime": null,
+    "state": "enabled",
+    "sessionControls": null,
+    "conditions": {
+        "signInRiskLevels": [
+                ],
+        "clientAppTypes": [
+                ],
+        "applications": {
+            "includeApplications": [
+                    ],
+            "excludeApplications": [
+                    ],
+            "includeAuthenticationContext": [
+					]
+        },
+        "users": {
+            "includeUsers": [],
+            "excludeUsers": [
+                            ],
+            "includeGroups": [
+                            ],
+            "excludeGroups": [
+                            ],
+            "includeRoles": [
+                            ],
+            "excludeRoles": [
+							]
+        },
+        "platforms": {
+            "includePlatforms": [
+						        ],
+            "excludePlatforms": [
+								]
+        },
+        "locations": {
+            "includeLocations": [
+								],
+            "excludeLocations": [
+								]
+        },
+        "times": {
+            "includeRange": null,
+            "excludeRange": null,
+            "allTimes": false,
+            "includeDays": {
+                "daysOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "timeZone": "Pacific Standard Time",
+                "startTime": "11:00:00",
+                "endTime": "11:20:00",
+                "allDay": false
+            },
+            "excludeDays": {
+                "daysOfWeek": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "timeZone": "Pacific Standard Time",
+                "startTime": "11:00:00",
+                "endTime": "11:01:00",
+                "allDay": false
+            }
+        },
+        "deviceStates": {
+            "includeStates": [
+                            ],
+            "excludeStates": [
+                            ]
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+							],
+        "customControls": [
+							]
+    }
+}
+
+
   "definition":["{\"TokenLifetimePolicy\":{\"Version\":1,\"AccessTokenLifetime\":\"8:00:00\",\"MaxInactiveTime\":\"20:00:00\",}}"],
   "displayName":"Test Policy",
   "isOrganizationDefault":false,
