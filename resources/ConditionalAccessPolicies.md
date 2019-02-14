@@ -239,7 +239,18 @@ Session control used to enforce signin frequency.
 | Property   | Type|Description|Read-Only|
 |:---------------|:--------|:----------|:-------:|
 |`value`|`Edm.Int32`| Numeric value corresponding to the given type (e.g. 8 hours, 1 day).||
-|`type`|`microsoft.graph.signinFrequencyType`| Type of the numeric value for this control.||
+|`type`|[`microsoft.graph.signinFrequencyType`](#microsoftgraphsigninfrequencytype)| Type of the numeric value for this control.||
+
+#### microsoft.graph.signinFrequencyType
+
+This Property is the Enum which can have any of the below defined values. 
+
+| Property	   | 
+|:---------------|
+|`Days`| 
+|`Hours`| 
+
+
 
 ### Enum: persistentBrowserSessionMode
 
