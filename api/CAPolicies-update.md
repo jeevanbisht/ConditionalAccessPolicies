@@ -81,12 +81,8 @@ Content-Type: application/json
             "excludeRoles": []
         }
     }
-}
+	}
 
-}
-
-
-}
 ```
 
 ##### Response
