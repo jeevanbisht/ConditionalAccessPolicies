@@ -1,6 +1,6 @@
 ---
 title: "Update Policy"
-description: "Update properties in a preexisting policy."
+description: "Update properties in a preexisting Conditional Access Policy."
 localization_priority: Normal
 ---
 
@@ -35,7 +35,7 @@ In the request body, provide a JSON object with the parameters that need to be u
 
 | Parameter	   | Type	|Description|
 |:---------------|:--------|:----------|
-|definition|String|The stringified version of the [policy](../resources/policy.md) object.|
+|definition|String|The stringified version of the [ Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object.|
 |displayName|String|A custom name for the policy.|
 |isOrganizationDefault|Boolean|Specifies if this policy is applied by default.|
 |type|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy"|
