@@ -116,6 +116,7 @@ Here is a JSON representation of the Conditional Access Policy.
     }
 }
 
+```
 
 #### Common Relationships
 |Relationship|Type|Description|
@@ -148,7 +149,7 @@ The properties below form the JSON object that represents a token lifetime polic
 |Version|Integer|Set value of 1. Required.|None|None|None|
 
 
-```
+
 <!--
 {
   "type": "#page.annotation",
