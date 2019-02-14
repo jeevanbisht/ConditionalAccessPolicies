@@ -188,7 +188,7 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessGra
 |`applicationEnforcedRestrictions`|[`microsoft.graph.applicationEnforcedRestrictionsSessionControl`](#microsoftgraphapplicationenforcedrestrictionssessioncontrol)| Session control to enforce application restrictions.|
 |`cloudAppSecurity`|[`microsoft.graph.cloudAppSecuritySessionControl`](#microsoftgraphcloudappsecuritysessioncontrol)| Session control to apply cloud app security.|
 |`signInFrequency`|[`microsoft.graph.signInFrequencySessionControl`](#microsoftgraphsigninfrequencysessioncontrol)| Session control to enforce signin frequency.|
-|`persistentBrowser`|`microsoft.graph.persistentBrowserSessionControl`| Session control to define whether to persist cookies or not.|
+|`persistentBrowser`|[`microsoft.graph.persistentBrowserSessionControl`](#microsoftgraphpersistentbrowsersessioncontrol)| Session control to define whether to persist cookies or not.|
 
 
 
@@ -252,15 +252,6 @@ This Property is the Enum which can have any of the below defined values.
 
 
 
-### Enum: persistentBrowserSessionMode
-
-
-
-| Property   | Description|
-|:---------------|:----------:|
-|`always`| Users remain signed in after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
-|`never`| Users are signed out after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
-|`unknownFutureValue`| Evolvable enum sentinal value|
 
 
 ### microsoft.graph.persistentBrowserSessionControl
@@ -270,6 +261,16 @@ This Property is the Enum which can have any of the below defined values.
 |:---------------|:--------|:----------|:-------:|
 |`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. `always`, `never`).||
 
+
+### Enum: persistentBrowserSessionMode
+
+
+
+| Property   | Description|
+|:---------------|:----------:|
+|`always`| Users remain signed in after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
+|`never`| Users are signed out after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
+|`unknownFutureValue`| Evolvable enum sentinal value|
 
 
 
