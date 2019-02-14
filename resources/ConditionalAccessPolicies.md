@@ -17,11 +17,11 @@ This policy is described in further detail below.
 ## Methods
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-| [Get policy](../api/CApolicies-get.md) |Policy|Read properties and relationships of Conditional Access Policy object.|
-|[Create policy](../api/CApolicies-post.md)|Policy|Create a new policy object.|
-|[Update policy](../api/CApolicies-update.md)|None|Update policy object.|
-|[Delete policy](../api/CApolicies-delete.md)|None|Delete policy object.|
-|[List policies](../api/CApolicies-list.md)|Policy collection|Get all Conditional Access policy objects in the organization.|
+| [Get policy](../api/CAPolicies-get.md) |Policy|Read properties and relationships of Conditional Access Policy object.|
+|[Create policy](../api/CAPolicies-post.md)|Policy|Create a new policy object.|
+|[Update policy](../api/CAPolicies-update.md)|None|Update policy object.|
+|[Delete policy](../api/CAPolicies-delete.md)|None|Delete policy object.|
+|[List policies](../api/CAPolicies-list.md)|Policy collection|Get all Conditional Access policy objects in the organization.|
 
 
 ### Common Properties
