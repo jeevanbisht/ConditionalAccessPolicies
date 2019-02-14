@@ -34,7 +34,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns `200 OK` response code and a [policy](../resources/policy.md) object in the response body. If unsucccessful...
+If successful, this method returns `200 OK` response code and a [Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object in the response body. If unsucccessful...
 
 ## Example
 The following example retrieves a specific policy.
@@ -43,7 +43,7 @@ The following example retrieves a specific policy.
 Here is an example of the request.
 
 ```http
-GET https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
+GET https://graph.microsoft.com/beta/conditionalaccesspolicies/{`id`}/
 ```
 
 ##### Response
