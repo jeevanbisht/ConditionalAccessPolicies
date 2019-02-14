@@ -37,7 +37,7 @@ This policy is described in further detail below.
 |`createdDateTime`|DateTimeOffset|Specifies creation datetime of the policy. Read-only|
 |`modifiedDateTime`|DateTimeOffset|Specifies last modification datetime of the policy. Read-only|
 |`state`|[`microsoft.graph.conditionalAccessPolicyState`](#microsoftgraphconditionalaccesspolicystate) |Specifies state of the policy, including Enabled, Disabled, and LogOnly.|
-|`sessionControls`|`microsoft.graph.conditionalAccessSessionControls`|Specifies complex type of session controls that will be enforced after sign-in.|
+|`sessionControls`|[`microsoft.graph.conditionalAccessSessionControls`](#microsoftgraphconditionalaccesssessioncontrols)|Specifies complex type of session controls that will be enforced after sign-in.|
 |`conditions`|[`microsoft.graph.conditionalAccessConditions`](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
 |`grantControls`|[`microsoft.graph.conditionalAccessGrantControls`](#microsoftgraphconditionalaccessgrantcontrols)|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 
