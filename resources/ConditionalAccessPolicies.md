@@ -146,7 +146,7 @@ This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
-|Browser|Browserrowser|Browser applications.|
+|Browser|Browser applications.|
 |Modern|Modern authentication applications.|
 |EasSupported|EAS applications on supported platforms.|
 |EasUnsupported|EAS applications on unsupported platforms.|
