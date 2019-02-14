@@ -198,9 +198,9 @@ This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
-|high| High Risk .|
-|medium| Medium Risk .|
-|low| Low Risk.|
+|High| High Risk .|
+|Medium| Medium Risk .|
+|Low| Low Risk.|
 |None| No Risk.|
 
 
