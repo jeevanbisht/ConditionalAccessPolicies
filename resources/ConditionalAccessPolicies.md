@@ -185,6 +185,67 @@ Here is a JSON representation of the Conditional Access Policy.
 
 
 
+### Abstract Class: conditionalAccessSessionControl
+
+
+
+### Complex Type: applicationEnforcedRestrictionsSessionControl
+Session control used to enforce application specific restrictions (e.g. Sharepoint limited access).
+
+
+
+### Enum: cloudAppSecuritySessionControlType
+
+
+
+### Complex Type: cloudAppSecuritySessionControl
+Session control used to enforce cloud app security checks.
+
+
+
+| Property   | Type|Description|Read-Only|
+|:---------------|:--------|:----------|:-------:|
+|`type`|`microsoft.graph.cloudAppSecuritySessionControlType`| Type of check to be performed by the cloud app security service.||
+
+### Enum: signinFrequencyType
+
+
+### Complex Type: signInFrequencySessionControl
+Session control used to enforce signin frequency.
+
+
+| Property   | Type|Description|Read-Only|
+|:---------------|:--------|:----------|:-------:|
+|`value`|`Edm.Int32`| Numeric value corresponding to the given type (e.g. 8 hours, 1 day).||
+|`type`|`microsoft.graph.signinFrequencyType`| Type of the numeric value for this control.||
+
+### Enum: persistentBrowserSessionMode
+
+
+
+| Property   | Description|
+|:---------------|:----------:|
+|`always`| Users remain signed in after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
+|`never`| Users are signed out after closing and reopening browser window. Requires policy assignment to All Cloud Apps|
+|`unknownFutureValue`| Evolvable enum sentinal value|
+
+### Complex Type: persistentBrowserSessionControl
+
+
+| Property   | Type|Description|Read-Only|
+|:---------------|:--------|:----------|:-------:|
+|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. always, never).||
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### microsoft.graph.conditionalAccessConditions 
