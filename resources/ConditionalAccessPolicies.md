@@ -122,6 +122,18 @@ Here is a JSON representation of the Conditional Access Policy.
 
 ```
 
+### microsoft.graph.conditionalAccessPolicyState
+
+| Value           | Description |
+|:----------------|:------------|
+|`Enabled`| Policy is enabled and enforced|
+|`Disabled`| Policy is not enabled or enforced|
+|`enabledForReportingButNotEnforced`| Policy is evaluated and logged but controls are not enforced|
+|`unknownFutureValue`| Evolvable enum sentinal value|
+
+
+
+
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
