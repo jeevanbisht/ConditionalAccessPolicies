@@ -18,9 +18,9 @@ This policy is described in further detail below.
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 | [Get policy](../api/CAPolicies-get.md) |Policy|Read properties and relationships of Conditional Access Policy object.|
-|[Create policy](../api/CAPolicies-post.md)|Policy|Create a new policy object.|
-|[Update policy](../api/CAPolicies-update.md)|None|Update policy object.|
-|[Delete policy](../api/CAPolicies-delete.md)|None|Delete policy object.|
+|[Create policy](../api/CAPolicies-post.md)|Policy|Create a new Conditional Access policy object.|
+|[Update policy](../api/CAPolicies-update.md)|None|Update Conditional Access policy object.|
+|[Delete policy](../api/CAPolicies-delete.md)|None|Delete Conditional Access policy object.|
 |[List policies](../api/CAPolicies-list.md)|Policy collection|Get all Conditional Access policy objects in the organization.|
 
 
