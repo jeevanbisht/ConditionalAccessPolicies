@@ -44,6 +44,7 @@ Here is an example of the request.
 
 ```http
 GET https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
+
 ```
 
 ##### Response
