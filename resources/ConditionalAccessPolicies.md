@@ -274,7 +274,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 ## JSON representation
-Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications .
+Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications Complex type .
 
 ```json
 
