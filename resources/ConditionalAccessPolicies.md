@@ -168,7 +168,7 @@ Note : The values are case sensitive
 
 
 
-### microsoft.graph.conditionalAccessLocations 
+#### microsoft.graph.conditionalAccessLocations 
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
@@ -178,7 +178,7 @@ Note : The values are case sensitive
 
 
 
-### microsoft.graph.conditionalAccessPlatforms	 
+#### microsoft.graph.conditionalAccessPlatforms	 
 This Property is the Enum which can have any of the below defined values. 
 
 | Property	   | Description|
@@ -194,7 +194,7 @@ Note : The values are case sensitive
 
 
 
-### microsoft.graph.riskLevel	 
+#### microsoft.graph.riskLevel	 
 This Property is the Enum which can have any of the below defined values. 
 
 | Property	   | Description|
@@ -209,12 +209,7 @@ Note : The values are case sensitive
 
 
 
-
-
-
-
-
-### microsoft.graph.conditionalAccessTimes	 
+#### microsoft.graph.conditionalAccessTimes	 
 
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
@@ -225,7 +220,7 @@ Note : The values are case sensitive
 |`excludeRange`|`microsoft.graph.conditionalAccessTimeRange`| A time range to exclude from scope of policy|
 
 
-### microsoft.graph.conditionalAccessDays
+##### microsoft.graph.conditionalAccessDays
 
 
 | Property   | Type|Description|
@@ -236,7 +231,7 @@ Note : The values are case sensitive
 |`endTime`|`String`| End time each day in HH:MM:SS format (ISO 8601)|
 
 
-### microsoft.graph.dayOfWeek
+###### microsoft.graph.dayOfWeek
 This Property is the Enum which can have any of the below defined values. 
 
 | Property	   | 
@@ -252,7 +247,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 
-### microsoft.graph.conditionalAccessTimeRange
+##### microsoft.graph.conditionalAccessTimeRange
 
 
 | Property   | Type|Description|
@@ -267,7 +262,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 
-### microsoft.graph.conditionalAccessUsers 
+#### microsoft.graph.conditionalAccessUsers 
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
 |`includeUsers`|Collection of `String`| User IDs in scope of policy unless explicitly excluded, or ALL or GUEST|
