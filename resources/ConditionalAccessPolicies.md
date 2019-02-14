@@ -222,14 +222,14 @@ Session control used to enforce cloud app security checks.
 
 #### microsoft.graph.cloudAppSecuritySessionControlType
 
-This Property is the Enum which can have any of the below defined values. 
+This Property is the Enum which can have any of the below defined values.
 
-| Property	   | 
+| Property	   |
 |:---------------|
-|`McasConfigured`| 
-|`MonitorOnly`| 
+|`McasConfigured`|
+|`MonitorOnly`|
 |`BlockDownloads`|
-|`ProtectDownloads`| 
+|`ProtectDownloads`|
 
 
 ### microsoft.graph.signInFrequencySessionControl
@@ -243,12 +243,12 @@ Session control used to enforce signin frequency.
 
 #### microsoft.graph.signinFrequencyType
 
-This Property is the Enum which can have any of the below defined values. 
+This Property is the Enum which can have any of the below defined values.
 
-| Property	   | 
+| Property	   |
 |:---------------|
-|`Days`| 
-|`Hours`| 
+|`Days`|
+|`Hours`|
 
 
 
@@ -298,7 +298,7 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessSes
 
 
 
-### microsoft.graph.conditionalAccessConditions 
+### microsoft.graph.conditionalAccessConditions
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |`applications`|[`microsoft.graph.conditionalAccessApplications`](#microsoftgraphconditionalaccessapplications)|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
@@ -313,14 +313,14 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessSes
 
 
 
-#### microsoft.graph.conditionalAccessApplications 
+#### microsoft.graph.conditionalAccessApplications
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |`includeApplications`|Collection of `String`|Application IDs in scope of policy unless explicitly excluded.|
 |`excludeApplications`|Collection of `String`|Application IDs excluded from scope of policy.|
 |`includeAuthenticationContext`|ACRS URIs in scope of policy unless explicitly exclude, or ALL.|
 
-#### microsoft.graph.conditionalAccessClientApps 
+#### microsoft.graph.conditionalAccessClientApps
 This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
@@ -335,7 +335,7 @@ Note : The values are case sensitive
 
 
 
-#### microsoft.graph.conditionalAccessDeviceStates 
+#### microsoft.graph.conditionalAccessDeviceStates
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
@@ -344,7 +344,7 @@ Note : The values are case sensitive
 
 
 
-#### microsoft.graph.conditionalAccessLocations 
+#### microsoft.graph.conditionalAccessLocations
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
@@ -355,7 +355,7 @@ Note : The values are case sensitive
 
 
 #### microsoft.graph.conditionalAccessPlatforms	 
-This Property is the Enum which can have any of the below defined values. 
+This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
@@ -371,7 +371,7 @@ Note : The values are case sensitive
 
 
 #### microsoft.graph.riskLevel	 
-This Property is the Enum which can have any of the below defined values. 
+This Property is the Enum which can have any of the below defined values.
 
 | Property	   | Description|
 |:---------------|:----------|
@@ -379,7 +379,6 @@ This Property is the Enum which can have any of the below defined values.
 |`Medium`| Medium Risk .|
 |`Low`| Low Risk.|
 |`None`| No Risk.|
-
 
 Note : The values are case sensitive
 
@@ -408,15 +407,15 @@ Note : The values are case sensitive
 
 
 ###### microsoft.graph.dayOfWeek
-This Property is the Enum which can have any of the below defined values. 
+This Property is the Enum which can have any of the below defined values.
 
-| Property	   | 
+| Property	   |
 |:---------------|
-|`Sunday`| 
-|`Monday`| 
+|`Sunday`|
+|`Monday`|
 |`Tuesday`|
-|`Wednesday`| 
-|`Thursday`| 
+|`Wednesday`|
+|`Thursday`|
 |`Friday`|
 |`Saturday`|
 
@@ -438,7 +437,7 @@ This Property is the Enum which can have any of the below defined values.
 
 
 
-#### microsoft.graph.conditionalAccessUsers 
+#### microsoft.graph.conditionalAccessUsers
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
 |`includeUsers`|Collection of `String`| User IDs in scope of policy unless explicitly excluded, or `ALL` or `GUEST`|
@@ -544,14 +543,3 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessApp
         }
 
 ```
-
-
-
-<!--
-{
-  "type": "#page.annotation",
-  "suppressions": [
-    "Error: /api-reference/beta/resources/policy.md:\r\n      Exception processing links.\r\n    System.ArgumentException: Link Definition was null. Link text: !INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)\r\n      at ApiDoctor.Validation.DocFile.get_LinkDestinations()\r\n      at ApiDoctor.Validation.DocSet.ValidateLinks(Boolean includeWarnings, String[] relativePathForFiles, IssueLogger issues, Boolean requireFilenameCaseMatch, Boolean printOrphanedFiles)"
-  ]
-}
--->
