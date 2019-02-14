@@ -54,7 +54,6 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-{
     "@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccessPolicies/$entity",
     "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
     "displayName": "Test Sample Policy",
