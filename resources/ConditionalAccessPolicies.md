@@ -132,7 +132,8 @@ Here is a JSON representation of the Conditional Access Policy.
 |`platforms`|[microsoft.graph.conditionalAccessPlatforms](#microsoftgraphconditionalaccessplatforms)|platforms included in and excluded from the policy scope. Optionally populated..|
 |`signInRiskLevels`|Collection([microsoft.graph.riskLevel](#microsoftgraphrisklevel))|risk levels included in the policy scope. Optionally populated.|
 |`times`|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
-|`users`|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
+|`users`|[microsoft.graph.conditionalAccessUsers](#microsoftgraphconditionalaccessusers)|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
+
 
 
 
