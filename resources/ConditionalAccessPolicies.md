@@ -94,7 +94,7 @@ Here is a JSON representation of the Conditional Access Policy.
             "includeUsers": [],
             "excludeUsers": [],
             "includeGroups": [],
-			"excludeGroups": []
+            "excludeGroups": [],
             "includeRoles": [],
             "excludeRoles": [],
         },
