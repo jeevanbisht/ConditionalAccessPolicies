@@ -280,16 +280,16 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessApp
 
 "conditions": {
         "signInRiskLevels": [
-            "high",
-            "medium",
-            "low",
-            "none"
+            "High",
+            "Medium",
+            "Low",
+            "None"
         ],
         "clientAppTypes": [
-            "browser",
-            "modern",
-            "easSupported",
-            "other"
+            "Browser",
+            "Modern",
+            "EasSupported",
+            "Other"
         ],
         "applications": {
             "includeApplications": [
@@ -319,11 +319,11 @@ Here is a sample JSON representation of the microsoft.graph.conditionalAccessApp
         },
         "platforms": {
             "includePlatforms": [
-                "android",
-                "iOS"
+                "Android",
+                "Ios"
             ],
             "excludePlatforms": [
-                "windowsPhone"
+                "WindowsPhone"
             ]
         },
         "locations": {
