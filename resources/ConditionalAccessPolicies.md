@@ -152,6 +152,18 @@ This Property is the Enum which can have any of the below defined values.
 |EasUnsupported|EAS applications on unsupported platforms.|
 |Other|Other legacy protocol applications.|
 
+### microsoft.graph.conditionalAccessPlatforms	 
+This Property is the Enum which can have any of the below defined values.
+
+| Property	   | Description|
+|:---------------|:----------|
+|All|All platforms.|
+|Android|Android.|
+|Ios|iOS.|
+|Windows|Windows platforms.|
+|WindowsPhone|Windows Phone.|
+|MacOs|MacOS.|
+
 
 
 
