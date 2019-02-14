@@ -1,6 +1,6 @@
 ---
-title: "policy resource type"
-description: "Represents an Azure AD policy. Policies are custom rules that can be enforced on applications, service principals, groups, or the entire organization they are assigned to. Currently only one type of policy is available:"
+title: "Conditional Access Policy resource type"
+description: "Represents an Azure AD Conditional Access Policy. Policies are custom rules that can be enforced on applications, service principals, groups, or the entire organization they are assigned to. Currently only one type of policy is available:"
 localization_priority: Normal
 ---
 
@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Represents an Azure AD policy. Policies are custom rules that can be enforced on applications, service principals, groups, or the entire organization they are assigned to. Currently only one type of policy is available:
+Represents an Azure AD Conditional Access policy. Policies are custom rules that can be enforced on applications, service principals, groups, or the entire organization they are assigned to. Currently only one type of policy is available:
 
 - Token Lifetime Policy - Specifies the lifetime duration of tokens issued for applications and service principals.
 
@@ -17,13 +17,12 @@ This policy is described in further detail below.
 ## Methods
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-| [Get policy](../api/policy-get.md) |Policy|Read properties and relationships of user object.|
+| [Get policy](../api/policy-get.md) |Policy|Read properties and relationships of Conditional Access Policy object.|
 |[Create policy](../api/policy-post.md)|Policy|Create a new policy object.|
 |[Update policy](../api/policy-update.md)|None|Update policy object.|
 |[Delete policy](../api/policy-delete.md)|None|Delete policy object.|
-|[Assign policy](../api/policy-assign.md)|None|Assign a policy to an application, service principal.|
-|[List policies](../api/policy-list.md)|Policy collection|Get all policy objects in the organization.|
-|[List assigned policies](../api/policy-list-assigned.md)|Policy collection|Get all policy objects assigned to an application or service principal.|
+|[List policies](../api/policy-list.md)|Policy collection|Get all Conditional Access policy objects in the organization.|
+
 
 ### Common Properties
 | Property	   | Type	|Description|
