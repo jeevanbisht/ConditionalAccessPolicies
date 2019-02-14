@@ -157,6 +157,15 @@ Note : The values are case sensitive
 
 
 
+### microsoft.graph.conditionalAccessDeviceStates 
+
+| Property	   | Type	|Description|
+|:---------------|:--------|:----------|
+|includeStates|Collection of String|States in scope of policy (ALL only allowed value).|
+|excludeStates|Collection of String|States excluded from scope of policy. ( Compliant or/and DomainJoined ) |
+
+
+
 
 ### microsoft.graph.conditionalAccessPlatforms	 
 This Property is the Enum which can have any of the below defined values. 
