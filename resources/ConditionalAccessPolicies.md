@@ -215,9 +215,9 @@ Session control used to enforce application specific restrictions (e.g. Sharepoi
 Session control used to enforce cloud app security checks.
 
 
-| Property   | Type|Description|Read-Only|
-|:---------------|:--------|:----------|:-------:|
-|`type`|[`microsoft.graph.cloudAppSecuritySessionControlType`](#microsoftgraphcloudappsecuritysessioncontroltype)| Type of check to be performed by the cloud app security service.||
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`type`|[`microsoft.graph.cloudAppSecuritySessionControlType`](#microsoftgraphcloudappsecuritysessioncontroltype)| Type of check to be performed by the cloud app security service.|
 
 
 #### microsoft.graph.cloudAppSecuritySessionControlType
@@ -236,10 +236,10 @@ This Property is the Enum which can have any of the below defined values.
 Session control used to enforce signin frequency.
 
 
-| Property   | Type|Description|Read-Only|
-|:---------------|:--------|:----------|:-------:|
-|`value`|`Edm.Int32`| Numeric value corresponding to the given type (e.g. 8 hours, 1 day).||
-|`type`|[`microsoft.graph.signinFrequencyType`](#microsoftgraphsigninfrequencytype)| Defines the signin frequency type. ||
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`value`|`Edm.Int32`| Numeric value corresponding to the given type (e.g. 8 hours, 1 day).|
+|`type`|[`microsoft.graph.signinFrequencyType`](#microsoftgraphsigninfrequencytype)| Defines the signin frequency type. |
 
 #### microsoft.graph.signinFrequencyType
 
@@ -257,9 +257,9 @@ This Property is the Enum which can have any of the below defined values.
 ### microsoft.graph.persistentBrowserSessionControl
 
 
-| Property   | Type|Description|Read-Only|
-|:---------------|:--------|:----------|:-------:|
-|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. `always`, `never`).||
+| Property   | Type|Description|
+|:---------------|:--------|:----------|
+|`mode`|`microsoft.graph.persistentBrowserSessionMode`| Type of persistent browser session mode (e.g. `always`, `never`).|
 
 
 #### microsoft.graph.persistentBrowserSessionMode
