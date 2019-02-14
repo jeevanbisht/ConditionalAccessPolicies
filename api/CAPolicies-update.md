@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Update properties in a preexisting [policy](../resources/ConditionalAccessPolicies.md).
+Update properties in a preexisting [Conditional Access Policy](../resources/ConditionalAccessPolicies.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
@@ -35,7 +35,7 @@ In the request body, provide a JSON object with the parameters that need to be u
 
 | Parameter	   | Type	|Description|
 |:---------------|:--------|:----------|
-|definition|String|The stringified version of the [ Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object.|
+|definition|String|The stringified version of the [Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object.|
 |displayName|String|A custom name for the policy.|
 |isOrganizationDefault|Boolean|Specifies if this policy is applied by default.|
 |type|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy"|
