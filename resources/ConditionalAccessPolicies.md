@@ -125,16 +125,15 @@ Here is a JSON representation of the Conditional Access Policy.
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|signInRiskLevels|Collection(microsoft.graph.riskLevel)|risk levels included in the policy scope. Optionally populated.|
-|clientAppTypes|Collection(microsoft.graph.conditionalAccessClientApps)|client application types included in the policy scope. Optionally populated.|
+scope. Optionally populated.|
 |applications|microsoft.graph.conditionalAccessApplications|applications and ACRS tags included in and excluded from the policy scope. Must be populated.|
-|users|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
-|platforms|microsoft.graph.conditionalAccessPlatforms|platforms included in and excluded from the policy scope. Optionally populated..|
-|locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
-|times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
+|clientAppTypes|Collection(microsoft.graph.conditionalAccessClientApps)|client application types included in the policy 
 |deviceStates|microsoft.graph.conditionalAccessDeviceStates|device states in the policy scope.|
-
-
+|locations|microsoft.graph.conditionalAccessLocations|locations included in and excluded from the policy scope. Optionally populated.|
+|platforms|microsoft.graph.conditionalAccessPlatforms|platforms included in and excluded from the policy scope. Optionally populated..|
+|signInRiskLevels|Collection(microsoft.graph.riskLevel)|risk levels included in the policy scope. Optionally populated.|
+|times|microsoft.graph.conditionalAccessTimes|times in scope of the policy.|
+|users|microsoft.graph.conditionalAccessUsers|users, groups, and roles included in and excluded from the policy scope. Must be populated.|
 
 
 #### Common Relationships
