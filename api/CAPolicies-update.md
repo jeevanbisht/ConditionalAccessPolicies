@@ -33,12 +33,32 @@ PATCH /conditionalaccesspolicies/{id}
 ## Request body
 In the request body, provide a JSON object with the parameters that need to be updated. The following table shows the possible parameters.
 
-| Parameter	   | Type	|Description|
-|:---------------|:--------|:----------|
-|definition|String|The stringified version of the [Conditional Access Policy](../resources/ConditionalAccessPolicies.md) object.|
-|displayName|String|A custom name for the policy.|
-|isOrganizationDefault|Boolean|Specifies if this policy is applied by default.|
-|type|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy"|
+## JSON representation
+Here is a sample JSON representation of the microsoft.graph.conditionalAccessApplications Complex type .
+
+```json
+
+{
+    "conditions": {
+        "applications": {
+            "includeApplications": [
+                "00000002-0000-0ff1-ce00-000000000000"
+            ],
+            "excludeApplications": [],
+            "includeAuthenticationContext": []
+        },
+        "users": {
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [ "Guests"],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        }
+}
+```
 
 ## Response
 
