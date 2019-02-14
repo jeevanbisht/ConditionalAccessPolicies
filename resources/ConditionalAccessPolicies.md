@@ -66,10 +66,9 @@ The properties below form the JSON object that represents a token lifetime polic
 |Version|Integer|Set value of 1. Required.|None|None|None|
 
 ## JSON representation
-Here is a JSON representation of the resource.
+Here is a JSON representation of the Conditional Access Policy.
 
 ```json
-{
 
 {
     "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
@@ -167,12 +166,6 @@ Here is a JSON representation of the resource.
     }
 }
 
-
-  "definition":["{\"TokenLifetimePolicy\":{\"Version\":1,\"AccessTokenLifetime\":\"8:00:00\",\"MaxInactiveTime\":\"20:00:00\",}}"],
-  "displayName":"Test Policy",
-  "isOrganizationDefault":false,
-  "type":"TokenLifetimePolicy",
-}
 ```
 <!--
 {
