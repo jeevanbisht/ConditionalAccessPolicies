@@ -1,6 +1,6 @@
 ---
-title: "Create Policy"
-description: "Create a new policy object by specifying display name, policy type, and policy description."
+title: "Create Conditional Access Policy"
+description: "Create a new Conditional Access Policy object by specifying display name and minimum required parameters."
 localization_priority: Normal
 ---
 
@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Create a new [policy](../resources/ConditionalAccessPolicies.md) object by specifying display name, policy type, and policy description.
+Create a new [Conditional Access policy](../resources/ConditionalAccessPolicies.md) object by specifying display name, policy type, and policy description.
 
 >Note: The policy details will be validated before being stored. If it does not pass validation, a 400 Bad Request will be returned.
 
@@ -33,13 +33,13 @@ POST /policies
 | Content-Type | application/json  | Nature of the data in the body of an entity. Required. |
 
 ## Request body
-In the request body, provide a JSON representation of [policy](../resources/policy.md) object.
+In the request body, provide a JSON representation of [Conditional Access policy](../resources/ConditionalAccessPolicies.md) object.
 
 The following table shows the properties that are required when you create a policy.
 
 | Parameter	   | Type	|Description|
 |:---------------|:--------|:----------|
-|definition|String|The string version of the [policy](../resources/policy.md) object.|
+|definition|String|The string version of the [policy](../resources/ConditionalAccessPolicies.md) object.|
 |displayName|String|A custom name for the policy.|
 |type|String|Specifies the type of policy. Currently must be "TokenLifetimePolicy"|
 
