@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Retrieve all [policy](../resources/policy.md) objects in the directory.
+Retrieve all [policy](../resources/ConditionalAccessPolicies.md) objects in the directory.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).

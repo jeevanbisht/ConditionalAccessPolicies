@@ -8,7 +8,7 @@ localization_priority: Normal
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Create a new [policy](../resources/policy.md) object by specifying display name, policy type, and policy description.
+Create a new [policy](../resources/ConditionalAccessPolicies.md) object by specifying display name, policy type, and policy description.
 
 >Note: The policy details will be validated before being stored. If it does not pass validation, a 400 Bad Request will be returned.
 
