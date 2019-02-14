@@ -4,7 +4,7 @@ description: "Represents an Azure AD Conditional Access Policy. Policies are cus
 localization_priority: Normal
 ---
 
-# policy resource type
+# Conditional Access policy resource type
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
