@@ -212,8 +212,8 @@ Note : The values are case sensitive
 ### microsoft.graph.conditionalAccessTimes	 
 
 | Property   | Type|Description|
-|:---------------|:--------|:----------|:-------:|
-|`allTimes`|`Boolean`| Apply to all times. If true, overrides all other time/day settings|
+|:---------------|:--------|:----------|
+|`allTimes`|`Boolean`| Apply to all times. If true, overrides all other time/day settings |
 |`includeDays`|`microsoft.graph.conditionalAccessDays`| Set of days of the week and times to include in scope of policy|
 |`excludeDays`|`microsoft.graph.conditionalAccessDays`| Set of days of the week and times to exclude from scope of policy|
 |`includeRange`|`microsoft.graph.conditionalAccessTimeRange`| A time range to include in scope of policy|
