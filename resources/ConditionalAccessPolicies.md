@@ -144,6 +144,19 @@ Here is a JSON representation of the Conditional Access Policy.
 |`customControls`|Collection of `String`| List of string IDs of custom controls specified by the policy|
 
 
+#### microsoft.graph.conditionalAccessGrantControl
+
+
+| Property   | Description|
+|:---------------|:----------:|
+|`Block`| Block sign-in|
+|`Mfa`| Require Azure MFA|
+|`CompliantDevice`| Require Intune-compliant device|
+|`DomainJoinedDevice`| Require AADJ domain-joined device|
+|`ApprovedApplication`| Require approved application|
+|`CompliantApplication`| Require Intune-compliant application|
+|`FederatedMfa`| Require MFA via federation|
+|`FederatedCertAuth`| Required certificate authentication via federation|
 
 ### microsoft.graph.conditionalAccessConditions 
 | Property	   | Type	|Description|
