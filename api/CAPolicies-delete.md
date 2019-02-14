@@ -1,6 +1,6 @@
 ---
-title: "Delete Policy"
-description: "Delete a policy."
+title: "Delete a Conditional Access Policy."
+description: "Delete a Conditional Access Policy."
 localization_priority: Normal
 ---
 
@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-DELETE /policies/{id}
+DELETE /ConditionalAccessPoliciespolicies/{id}
 ```
 ## Request headers
 | Name       | Type | Description|
@@ -43,7 +43,7 @@ The following example deletes a policy.
 Here is an example of the request.
 
 ```http
-DELETE https://graph.microsoft.com/beta/policies/{id}
+DELETE https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
 ```
 
 ##### Response
