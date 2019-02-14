@@ -43,7 +43,7 @@ The following example retrieves a specific policy.
 Here is an example of the request.
 
 ```http
-GET https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}/
+GET https://graph.microsoft.com/beta/conditionalaccesspolicies/{id}
 ```
 
 ##### Response
