@@ -53,17 +53,16 @@ Here is an example of the response. Note: The response object shown here may be 
 HTTP/1.1 200 OK
 Content-type: application/json
   {
-  "@odata.context": "https://graph.microsoft-ppe.com/beta/$metadata#conditionalAccessPolicies",
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccessPolicies",
     "@odata.count": 12,
     "value": [
         {
             "id": "94f8bf38-27b1-46d0-a745-9dac7e22c7d1",
-            "displayName": "EXO - Outside362DS",
+            "displayName": "Test Policy Sample",
             "createdDateTime": null,
             "modifiedDateTime": null,
             "state": "enabled",
-		}
-		...
+			}
 		....
 		
 	]
