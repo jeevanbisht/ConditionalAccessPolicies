@@ -57,7 +57,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/beta/ConditionalAccessPolicies
 Content-Type: application/json
 {
-    "displayName": "Basic Policy Sample",
+    "displayName": "Basic Policy Sample " ,
     "state": "Disabled",
     "conditions": {
         "applications": {
