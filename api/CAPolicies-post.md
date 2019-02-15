@@ -93,12 +93,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ```http
 HTTP/1.1 201 Created
 Content-type: application/json
-
-
 {
-    "@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccessPolicies/$entity",
-    "id": "870dd632-7759-4a7b-bff4-dc17ee39270c",
-    "displayName": "Sample Policy Test",
+    "@odata.context": "https://graph.microsoft-ppe.com/beta/$metadata#conditionalAccessPolicies/$entity",
+    "id": "e5ffc9b7-e91e-4945-8ba9-2e6b933cac3e",
+    "displayName": "Basic Policy Sample",
     "createdDateTime": null,
     "modifiedDateTime": null,
     "state": "Disabled",
