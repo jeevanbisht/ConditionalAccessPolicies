@@ -52,26 +52,19 @@ has escaped double quotes.
 
 ##### Request
 Here is an example of the request.
-
 ```http
-POST https://graph.microsoft.com/beta/ConditionalAccessPolicies
-Content-Type: application/json
 {
-    "displayName": "Basic Policy Sample " ,
+    "displayName": "Basic Policy Sample",
     "state": "Disabled",
     "conditions": {
         "applications": {
-            "includeApplications": [
-                "00000002-0000-0ff1-ce00-000000000000"
-            ],
+            "includeApplications": [ "none" ],
             "excludeApplications": [],
             "includeAuthenticationContext": []
         },
         "users": {
-            "includeUsers": [
-                "All"
-            ],
-            "excludeUsers": [ "Guests"],
+            "includeUsers": [ "none" ],
+            "excludeUsers": [ ],
             "includeGroups": [],
             "excludeGroups": [],
             "includeRoles": [],
@@ -79,9 +72,7 @@ Content-Type: application/json
         }
 },    "grantControls": {
         "operator": "OR",
-        "builtInControls": [
-            "Mfa"
-        ],
+        "builtInControls": ["Block"],
         "customControls": []
     }
 }
@@ -93,9 +84,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ```http
 HTTP/1.1 201 Created
 Content-type: application/json
+
 {
     "@odata.context": "https://graph.microsoft-ppe.com/beta/$metadata#conditionalAccessPolicies/$entity",
-    "id": "e5ffc9b7-e91e-4945-8ba9-2e6b933cac3e",
+    "id": "e56a956d-84ad-42d3-ae21-6141ca9f97c5",
     "displayName": "Basic Policy Sample",
     "createdDateTime": null,
     "modifiedDateTime": null,
@@ -110,18 +102,16 @@ Content-type: application/json
         "deviceStates": null,
         "applications": {
             "includeApplications": [
-                "00000002-0000-0ff1-ce00-000000000000"
+                "none"
             ],
             "excludeApplications": [],
             "includeAuthenticationContext": []
         },
         "users": {
             "includeUsers": [
-                "All"
+                "none"
             ],
-            "excludeUsers": [
-                "Guests"
-            ],
+            "excludeUsers": [],
             "includeGroups": [],
             "excludeGroups": [],
             "includeRoles": [],
@@ -131,7 +121,7 @@ Content-type: application/json
     "grantControls": {
         "operator": "OR",
         "builtInControls": [
-            "Mfa"
+            "Block"
         ],
         "customControls": []
     }
