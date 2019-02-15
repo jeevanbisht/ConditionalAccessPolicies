@@ -64,9 +64,9 @@ Here is an example of the request.
         },
         "users": {
             "includeUsers": [ "none" ],
-            "excludeUsers": [ ],
-            "includeGroups": [],
-            "excludeGroups": [],
+            "excludeUsers": [],
+            "includeGroups":[],
+            "excludeGroups":[],
             "includeRoles": [],
             "excludeRoles": []
         }
@@ -112,8 +112,8 @@ Content-type: application/json
                 "none"
             ],
             "excludeUsers": [],
-            "includeGroups": [],
-            "excludeGroups": [],
+            "includeGroups":[],
+            "excludeGroups":[],
             "includeRoles": [],
             "excludeRoles": []
         }
