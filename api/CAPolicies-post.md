@@ -59,7 +59,42 @@ Content-Type: application/json
 
 {
 
-
+    "displayName": "Sample Policy Test",
+    "state": "Enabled",
+    "conditions": {
+        "platforms": null,
+        "locations": null,
+        "signInRiskLevels": [],
+        "clientAppTypes": [],
+        "times": null,
+        "deviceStates": null,
+        "applications": {
+            "includeApplications": [
+                "00000002-0000-0ff1-ce00-000000000000"
+            ],
+            "excludeApplications": [],
+            "includeAuthenticationContext": []
+        },
+        "users": {
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [
+                "Guests"
+            ],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "Mfa"
+        ],
+        "customControls": []
+    }
 }
 ```
 
@@ -70,8 +105,49 @@ Here is an example of the response. Note: The response object shown here may be 
 HTTP/1.1 201 Created
 Content-type: application/json
 
+
 {
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#policies/$entity",
+    "@odata.context": "https://graph.microsoft-ppe.com/beta/$metadata#conditionalAccessPolicies/$entity",
+    "id": "870dd632-7759-4a7b-bff4-dc17ee39270c",
+    "displayName": "Sample Policy Test",
+    "createdDateTime": null,
+    "modifiedDateTime": null,
+    "state": "enabled",
+    "sessionControls": null,
+    "conditions": {
+        "platforms": null,
+        "locations": null,
+        "signInRiskLevels": [],
+        "clientAppTypes": [],
+        "times": null,
+        "deviceStates": null,
+        "applications": {
+            "includeApplications": [
+                "00000002-0000-0ff1-ce00-000000000000"
+            ],
+            "excludeApplications": [],
+            "includeAuthenticationContext": []
+        },
+        "users": {
+            "includeUsers": [
+                "All"
+            ],
+            "excludeUsers": [
+                "Guests"
+            ],
+            "includeGroups": [],
+            "excludeGroups": [],
+            "includeRoles": [],
+            "excludeRoles": []
+        }
+    },
+    "grantControls": {
+        "operator": "OR",
+        "builtInControls": [
+            "mfa"
+        ],
+        "customControls": []
+    }
 }
 
 ```
