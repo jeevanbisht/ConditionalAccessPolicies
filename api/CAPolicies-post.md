@@ -107,12 +107,12 @@ Content-type: application/json
 
 
 {
-    "@odata.context": "https://graph.microsoft-ppe.com/beta/$metadata#conditionalAccessPolicies/$entity",
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#conditionalAccessPolicies/$entity",
     "id": "870dd632-7759-4a7b-bff4-dc17ee39270c",
     "displayName": "Sample Policy Test",
     "createdDateTime": null,
     "modifiedDateTime": null,
-    "state": "enabled",
+    "state": "Enabled",
     "sessionControls": null,
     "conditions": {
         "platforms": null,
@@ -144,7 +144,7 @@ Content-type: application/json
     "grantControls": {
         "operator": "OR",
         "builtInControls": [
-            "mfa"
+            "Mfa"
         ],
         "customControls": []
     }
