@@ -56,18 +56,10 @@ Here is an example of the request.
 ```http
 POST https://graph.microsoft.com/beta/ConditionalAccessPolicies
 Content-Type: application/json
-
 {
-
-    "displayName": "Sample Policy Test",
-    "state": "Enabled",
+    "displayName": "Basic Sample",
+    "state": "Disabled",
     "conditions": {
-        "platforms": null,
-        "locations": null,
-        "signInRiskLevels": [],
-        "clientAppTypes": [],
-        "times": null,
-        "deviceStates": null,
         "applications": {
             "includeApplications": [
                 "00000002-0000-0ff1-ce00-000000000000"
@@ -79,16 +71,13 @@ Content-Type: application/json
             "includeUsers": [
                 "All"
             ],
-            "excludeUsers": [
-                "Guests"
-            ],
+            "excludeUsers": [ "Guests"],
             "includeGroups": [],
             "excludeGroups": [],
             "includeRoles": [],
             "excludeRoles": []
         }
-    },
-    "grantControls": {
+},    "grantControls": {
         "operator": "OR",
         "builtInControls": [
             "Mfa"
@@ -112,7 +101,7 @@ Content-type: application/json
     "displayName": "Sample Policy Test",
     "createdDateTime": null,
     "modifiedDateTime": null,
-    "state": "Enabled",
+    "state": "Disabled",
     "sessionControls": null,
     "conditions": {
         "platforms": null,
