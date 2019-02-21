@@ -13,8 +13,6 @@ Represents an Azure AD Conditional Access policy. Conditional access Policies ar
 
 
 
-
-
 This policy is described in further detail below.
 
 ## Methods
@@ -29,7 +27,7 @@ This policy is described in further detail below.
 
 
 
-### Common Properties
+## Common Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |`id`|String|Specifies id of a policy. `Read-only`|
@@ -41,7 +39,7 @@ This policy is described in further detail below.
 |`conditions`|[`microsoft.graph.conditionalAccessConditions`](#microsoftgraphconditionalaccessconditions)|Specifies complex type of conditions that govern when the policy applies.|
 |`grantControls`|[`microsoft.graph.conditionalAccessGrantControls`](#microsoftgraphconditionalaccessgrantcontrols)|Specifies complex type of grant controls that must be fulfilled to pass the policy.|
 
-### JSON representation
+## JSON representation
 Here is a JSON representation of the `Conditional Access Policy`.
 
 ```json
@@ -428,8 +426,6 @@ This Property is the Enum which can have any of the below defined values.
 |`timeZone`|`String`| Time zone in +HH:MM or -HH:MM format (ISO 8601)|
 |`startDateTime`|`String`| Start time each day in YYYY-MM-DDTHH:MM:SS format (ISO 8601)|
 |`endDateTime`|`String`| End time each day in YYYY-MM-DDTHH:MM:SS format (ISO 8601)|
-
-
 
 
 
