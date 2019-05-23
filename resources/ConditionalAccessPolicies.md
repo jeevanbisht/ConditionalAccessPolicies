@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Conditional Access policy resource type
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!IMPORTANT] APIs under the /beta version in Microsoft Graph are subject to change. Use of these APIs in production applications is not supported.
 
 Represents an Azure AD Conditional Access policy. Conditional access Policies are custom rules that define and access scenario
 
@@ -405,8 +405,8 @@ Note : The values are case sensitive
 ###### microsoft.graph.dayOfWeek
 This Property is the Enum which can have any of the below defined values.
 
-| Property	   |
-|:---------------|
+| Property |
+|:----------|
 |`Sunday`|
 |`Monday`|
 |`Tuesday`|
