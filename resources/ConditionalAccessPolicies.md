@@ -3,15 +3,11 @@ title: "Conditional Access Policy resource type"
 description: "Represents an Azure AD Conditional Access policy. Conditional access Policies are custom rules that define and access scenario:"
 localization_priority: Normal
 ---
-
-# Conditional Access policy resource type
-
 [!IMPORTANT] APIs under the /beta version in Microsoft Graph are subject to change. Use of these APIs in production applications is not supported.
 
-Represents an Azure AD Conditional Access policy. Conditional access Policies are custom rules that define and access scenario
 
-
-
+# Conditional Access policy resource type
+Represents Azure AD Conditional Access policy Item(s). Conditional access Policies are custom rules that define and access scenario
 
 This policy is described in further detail below.
 
