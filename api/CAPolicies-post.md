@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Create Policy
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](../includes/beta-disclaimer.md)]
 
 Create a new [Conditional Access policy](../resources/ConditionalAccessPolicies.md) object by specifying display name, policy type, and policy description.
 
