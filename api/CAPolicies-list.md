@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # List Policies
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](../includes/beta-disclaimer.md)]
 
 Retrieve all [Condition Access policy](../resources/ConditionalAccessPolicies.md) objects in the directory.
 
