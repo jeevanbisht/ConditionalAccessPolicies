@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Update Policy
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](../includes/beta-disclaimer.md)]
 
 Update properties in a preexisting [Conditional Access Policy](../resources/ConditionalAccessPolicies.md).
 
