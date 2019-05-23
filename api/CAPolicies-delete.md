@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Delete Policy
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](../includes/beta-disclaimer.md)]
 
 Delete a [Conditional Access policy](../resources/ConditionalAccessPolicies.md).
 
