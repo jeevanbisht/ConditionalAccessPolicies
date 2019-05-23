@@ -6,7 +6,7 @@ localization_priority: Normal
 
 # Get Policy
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [beta-disclaimer](../includes/beta-disclaimer.md)]
 
 Retrieve the properties of a [Conditional Access Policy](../resources/ConditionalAccessPolicies.md).
 
