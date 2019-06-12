@@ -54,28 +54,44 @@ has escaped double quotes.
 Here is an example of the request.
 ```http
 {
-    "displayName": "Basic Policy Sample",
-    "state": "Disabled",
-    "conditions": {
-        "applications": {
-            "includeApplications": [ "none" ],
-            "excludeApplications": [],
-            "includeAuthenticationContext": []
-        },
-        "users": {
-            "includeUsers": [ "none" ],
-            "excludeUsers": [],
-            "includeGroups":[],
-            "excludeGroups":[],
-            "includeRoles": [],
-            "excludeRoles": []
-        }
-},    "grantControls": {
-        "operator": "OR",
-        "builtInControls": ["Block"],
-        "customControls": []
-    }
-}
+		"displayName": "BasicpolicySample",
+		"state": "disabled",
+		"sessionControls": null,
+		"conditions": {
+			"userRiskLevels": [],
+			"signInRiskLevels": [],
+			"clientAppTypes": [],
+			"platforms": null,
+			"locations": null,
+			"times": null,
+			"deviceStates": null,
+			"applications": {
+				"includeApplications": [
+					"None"
+				],
+				"excludeApplications": [],
+				"includeAuthenticationContext": []
+			},
+			"users": {
+				"includeUsers": [
+					"None"
+				],
+				"excludeUsers": [],
+				"includeGroups": [],
+				"excludeGroups": [],
+				"includeRoles": [],
+				"excludeRoles": []
+			}
+		},
+		"grantControls": {
+			"operator": "OR",
+			"builtInControls": [
+				"block"
+			],
+			"customAuthenticationFactors": [],
+			"termsOfUse": []
+		}
+	}
 ```
 
 ##### Response
